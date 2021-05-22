@@ -25,6 +25,8 @@ class Resume extends Component {
             <p>(951) 288-2247</p>
             <h5>Email</h5>
             <p>clint.rizzo92@gmail.com</p>
+            <h5>Copy of Resume</h5>
+            <a href="./images/Clinton_Rizzo_Resume (1).PDF">Clint Rizzo</a>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8} style={{borderRadius:"50px"}}>
@@ -52,10 +54,11 @@ class Resume extends Component {
               startYear={2013}
               endYear={2019}
               jobName="Orange County Sheriffs Department (Correctional Service Assistant)"
-              jobDescription="While working in custody for the Orange County Sheriff's Department where I maintained
-              security for inmates. My main duties were to do hourly checks, log those checks, and conduct
-              inmate counts. During my time with the sheriff's department I trained multiple new
-              employees and had to write daily performance evaluations on their abilities."
+              jobDescription="While working for the Orange County Sheriff's Department I was assigned to multiple facilities where I conducted important duties. Some of my duties
+             were to maintain the security of inmates and staff. Other duties included to maintain detailed security logs, documenting security checks, documenting all incidents, and assist with emergency activations.
+              While working for the Orange County Sheriffs Department I was given the oppurtunity to train three academy graduates. My job as a training officer
+              was to observe the new hires and assist them with any questions or concerns they may have had while also observing their work to make sure they would be able
+              to assist the deputies in their duties."
               />
 
               <Experience
