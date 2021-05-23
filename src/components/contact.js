@@ -5,15 +5,15 @@ import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 class Contact extends Component {
   render() {
     return(
-      <div className="contact-body">
-        <Grid className="contact-grid">
+      <div className="contact-body" style={{backgroundColor:"rgb(219, 227, 231)"}}>
+        <Grid className="contact-grid" style={{backgroundColor:"rgb(219, 227, 231)"}}>
           <Cell col={6}>
             <h2>Clinton Rizzo</h2>
             <img
               src="images/me.jpg"
               alt="avatar"
               className="contactImage"
-              style={{height: '350px', width: '300px'}}
+              style={{height: '280px', width: '250px'}}
                />
              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Hello! I have just finished my boot camp journey for full stack web development. My primary interests are in frontend and database using mySQL. The things I enjoy outside of coding is painting, reading, and doing paintball competitions.</p>
 

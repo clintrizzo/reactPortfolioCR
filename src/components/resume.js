@@ -8,7 +8,7 @@ import Skills from './skills';
 class Resume extends Component {
   render() {
     return(
-      <div>
+      <div style={{backgroundColor:"rgb(219, 227, 231)"}}>
         <Grid>
           <Cell col={4}>
             <h2 style={{paddingTop: '10px'}}>Clinton Rizzo</h2>
