@@ -22,8 +22,8 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <center>
-              <Button><a href="https://github.com/clintrizzo/BusyParentScheduler" style={{color:"black"}}>GITHUB</a></Button>
-              <Button><a href="https://kjwallac.github.io/BusyParentScheduler/calendar.html" style={{color:"black"}}>LIVE DEMO</a></Button>
+              <Button><a href="https://github.com/clintrizzo/BusyParentScheduler" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
+              <Button><a href="https://kjwallac.github.io/BusyParentScheduler/calendar.html" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
               </center>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -40,8 +40,8 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <center>
-              <Button colored><a href="https://github.com/clintrizzo/2D-game" style={{color:"black"}}>GITHUB</a></Button>
-              <Button colored><a href="https://www.youtube.com/watch?v=P7NGOYOvt8Y" style={{color:"black"}}>LIVE DEMO</a></Button>
+              <Button colored><a href="https://github.com/clintrizzo/2D-game" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
+              <Button colored><a href="https://www.youtube.com/watch?v=P7NGOYOvt8Y" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
               </center>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -58,8 +58,8 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <center>
-              <Button colored><a href="https://github.com/clintrizzo/Weatherboard" style={{color:"black"}}>GITHUB</a></Button>
-              <Button colored><a href="https://clintrizzo.github.io/Weatherboard/" style={{color:"black"}}>LIVE DEMO</a></Button>
+              <Button colored><a href="https://github.com/clintrizzo/Weatherboard" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
+              <Button colored><a href="https://clintrizzo.github.io/Weatherboard/" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
               </center>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -75,8 +75,8 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <center>
-              <Button colored><a href="https://github.com/clintrizzo/day-planner" style={{color:"black"}}>GITHUB</a></Button>
-              <Button colored><a href="https://clintrizzo.github.io/day-planner/" style={{color:"black"}}>LIVE DEMO</a></Button>
+              <Button colored><a href="https://github.com/clintrizzo/day-planner" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
+              <Button colored><a href="https://clintrizzo.github.io/day-planner/" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
               </center>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -99,8 +99,8 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <center>
-              <Button colored><a href="https://github.com/clintrizzo/READme-generator" style={{color:"black"}}>GITHUB</a></Button>
-              <Button colored><a href="https://www.youtube.com/watch?v=7fdDhJHIG8s" style={{color:"black"}}>LIVE DEMO</a></Button>
+              <Button colored><a href="https://github.com/clintrizzo/READme-generator" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
+              <Button colored><a href="https://www.youtube.com/watch?v=7fdDhJHIG8s" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
               </center>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -117,8 +117,8 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <center>
-              <Button colored><a href="https://github.com/clintrizzo/employee-tracker-database" style={{color:"black"}}>GITHUB</a></Button>
-              <Button colored><a href="https://www.youtube.com/watch?v=ahixbcV90wQ" style={{color:"black"}}>LIVE DEMO</a></Button>
+              <Button colored><a href="https://github.com/clintrizzo/employee-tracker-database" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
+              <Button colored><a href="https://www.youtube.com/watch?v=ahixbcV90wQ" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
               </center>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -135,8 +135,8 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <center>
-              <Button colored><a href="https://github.com/clintrizzo/teamprofile" style={{color:"black"}}>GITHUB</a></Button>
-              <Button colored><a href="https://www.youtube.com/watch?v=7WysBxSLzec" style={{color:"black"}}>LIVE DEMO</a></Button>
+              <Button colored><a href="https://github.com/clintrizzo/teamprofile" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
+              <Button colored><a href="https://www.youtube.com/watch?v=7WysBxSLzec" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
               </center>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -157,8 +157,8 @@ class Projects extends Component {
             This is a employee directory created with React. The application's UI is broken up into components, manages component state, and responds to user events.            </CardText>
             <CardActions border>
               <center>
-              <Button colored><a href="https://github.com/clintrizzo/user-directory2" style={{color:"black"}}>GITHUB</a></Button>
-              <Button colored><a href="https://user--directory2.herokuapp.com/" style={{color:"black"}}>LIVE DEMO</a></Button>
+              <Button colored><a href="https://github.com/clintrizzo/user-directory2" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
+              <Button colored><a href="https://user--directory2.herokuapp.com/" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
               </center>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -176,8 +176,8 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <center>
-              <Button colored><a href="https://github.com/clintrizzo/google-book-search" style={{color:"black"}}>GITHUB</a></Button>
-              <Button colored><a href="https://booksearchgooglesssss.herokuapp.com/" style={{color:"black"}}>LIVE DEMO</a></Button>
+              <Button colored><a href="https://github.com/clintrizzo/google-book-search" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
+              <Button colored><a href="https://booksearchgooglesssss.herokuapp.com/" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
               </center>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -194,8 +194,8 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <center>
-              <Button colored><a href="https://github.com/clintrizzo/joyhunter" style={{color:"black"}}>GITHUB</a></Button>
-              <Button colored><a href="" style={{color:"black"}}>LIVE DEMO</a></Button>
+              <Button colored><a href="https://github.com/clintrizzo/joyhunter" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
+              <Button colored><a href="" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
               </center>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
