@@ -26,7 +26,7 @@ class Landing extends Component {
           </a>
 
           {/* Instagram */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.instagram.com/clintrizzo/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-instagram" aria-hidden="true" />
           </a>
 
