@@ -8,10 +8,12 @@ class Landing extends Component {
       <div style={{width: '500px', margin: 'auto'}}>
         <Grid className="landing-grid">
             <div className="banner-text">
-              <h1>Clinton Rizzo <br></br> Full Stack Web Developer</h1>
+              <h1 className="name">Clinton Patrick Rizzo</h1> <br></br>
+              <hr/>
+              <h2> Full Stack Web Developer</h2>
               <hr/>
 
-          <p>HTML/CSS | Bootstrap | JavaScript | mySQL | NodeJS | Express | MongoDB | React</p>
+          <p className="languages">HTML/CSS | Bootstrap | JavaScript | mySQL | NodeJS | Express | MongoDB | React</p>
 
         <div className="social-links">
 
