@@ -12,9 +12,9 @@ class Projects extends Component {
 
     if(this.state.activeTab === 0){
       return(
-        <div className="projects-grid" style={{backgroundColor:"rgb(219, 227, 231)"}}>
+        <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={10} style={{minWidth: '250', margin: 'auto'}}>
+          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', marginTop:"5px", background: 'url(./images/javascript/calendar.jpg) center / cover'}}></CardTitle>
             <CardText>
               <h6><strong>Busy Parent Scheduler</strong></h6>
@@ -30,9 +30,9 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
+          <br></br>
           {/* Project 2 */}
-          <Card shadow={10} style={{minWidth: '250', margin: 'auto', marginLeft:"12px"}}>
+          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', marginTop:"5px", background: 'url(./images/javascript/2d.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>Brick Breaker</strong></h6>
@@ -48,9 +48,9 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
+          <br></br>
           {/* Project 3 */}
-          <Card shadow={10} style={{minWidth: '250', margin: 'auto', margin:"12px"}}>
+          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', marginTop:"5px", background: 'url(./images/javascript/weatherBoard.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>Weather Board</strong></h6>
@@ -66,23 +66,6 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-            {/* Project 4 */}
-            <Card shadow={10} style={{minWidth: '250', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', marginTop:"5px", background: 'url(./images/javascript/dayPlanner.jpg) center / cover'}} ></CardTitle>
-            <CardText>
-            <h6><strong>Day Planner</strong></h6>
-            This app is mainly used to keep your daily work schedule organized. All work hours can be saved to the local storage of the user so that way your information is never lost. You can also use this calendar for reference showing you the past time, present, and future times all represented by a specific color. 1. past color: black 2. present color: light grey 3. future color: red Image of app:           
-            </CardText>
-            <CardActions border>
-              <center>
-              <Button colored><a href="https://github.com/clintrizzo/day-planner" rel="noopener noreferrer" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
-              <Button colored><a href="https://clintrizzo.github.io/day-planner/" rel="noopener noreferrer" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
-              </center>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
         </div>
 
 
@@ -91,7 +74,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto', marginLeft:"20px"}}>
+          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(./images/mySQL/readMe.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>ReadMe Generator</strong></h6>
@@ -107,9 +90,9 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
+          <br></br>
           {/* Project 2 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto', marginLeft:"20px"}}>
+          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(./images/mySQL/employeeTracker.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>Employee Tracker</strong></h6>
@@ -125,9 +108,9 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
+        <br></br>
           {/* Project 3 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto', marginLeft:"20px"}}>
+          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(./images/mySQL/teamProfile.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>Team Profile</strong></h6>
@@ -150,7 +133,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto', marginLeft:"20px"}}>
+          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(./images/react/userDirectory.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>User Directory</strong></h6>
@@ -165,9 +148,9 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
+        <br></br>
           {/* Project 2 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto', marginLeft:"20px"}}>
+          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(./images/react/googleSearch.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>Google Book Search</strong></h6>
@@ -184,9 +167,9 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
+          <br></br>
           {/* Project 3 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto', marginLeft:"20px"}}>
+          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(./images/react/joyHunter.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>Joy Hunter</strong></h6>
