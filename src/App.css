@@ -20,6 +20,25 @@
   display: flex;
 }
 
+.projects-grid{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+  .projects-grid{
+      width: 100%;
+      margin: 0;
+      box-sizing: border-box;
+      text-align: center;
+  }
+  .projects-grid{
+      padding-top: 50px;
+  }
+}
+
 /* Resume Page css */
 .resume-right-col {
   background: #27221F;
