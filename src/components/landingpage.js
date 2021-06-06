@@ -8,12 +8,13 @@ class Landing extends Component {
       <div style={{width: '500px', margin: 'auto'}}>
         <Grid className="landing-grid">
             <div className="banner-text">
-              <h1 className="name">Clinton Patrick Rizzo</h1> <br></br>
+              <h1 className="name">Clinton Rizzo</h1> <br></br>
               <hr/>
               <h2> Full Stack Web Developer</h2>
               <hr/>
 
           <p className="languages">HTML/CSS | Bootstrap | JavaScript | mySQL | NodeJS | Express | MongoDB | React</p>
+        <hr style={{marginBottom: '30px',}}/>
 
         <div className="social-links">
 
@@ -36,8 +37,9 @@ class Landing extends Component {
           <a href="https://www.youtube.com/channel/UCpARYFoliOIr-UGpIT-4ibQ/videos" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-youtube-square" aria-hidden="true" />
           </a>
-
         </div>
+        <br></br>
+        <br></br>
             </div>
         </Grid>
       </div>
