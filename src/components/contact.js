@@ -7,7 +7,7 @@ class Contact extends Component {
     return(
       <div className="contact-body" style={{backgroundColor:"rgb(219, 227, 231)"}}>
         <Grid className="contact-grid" style={{backgroundColor:"rgb(219, 227, 231)"}}>
-          <Cell col={6}>
+          <Cell col={10}>
             <h2>Clinton Rizzo</h2>
             <img
               src="images/me.jpg"
@@ -18,7 +18,7 @@ class Contact extends Component {
              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Hello! I have just finished my boot camp journey for full stack web development. My primary interests are in frontend and database using mySQL. The things I enjoy outside of coding is painting, reading, and doing paintball competitions.</p>
 
           </Cell>
-          <Cell col={6}>
+          <Cell col={10}>
             <h2>Contact Me</h2>
             <hr/>
 
@@ -43,8 +43,6 @@ class Contact extends Component {
                     Clint-Rizzo
                   </ListItemContent>
                 </ListItem>
-
-
               </List>
             </div>
           </Cell>
