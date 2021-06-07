@@ -9,14 +9,10 @@ class Landing extends Component {
         <Grid className="landing-grid">
             <div className="banner-text">
               <img src="./images/me.jpg" className="clint"></img> <br></br>
-              <hr/>
               <h2> Full Stack Web Developer</h2>
               <hr/>
-
-          <p className="languages">HTML/CSS | Bootstrap | JavaScript | mySQL | NodeJS | Express | MongoDB | React</p>
-        <hr style={{marginBottom: '30px',}}/>
-
-        <div className="social-links">
+            <p className="languages">HTML/CSS | Bootstrap | JavaScript | mySQL | NodeJS | Express | MongoDB | React</p>
+          <div className="social-links">
 
           {/* LinkedIn */}
           <a href="https://www.linkedin.com/in/clinton-rizzo-79b67b1b6/" rel="noopener noreferrer" target="_blank">
