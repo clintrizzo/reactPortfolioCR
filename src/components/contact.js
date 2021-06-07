@@ -1,55 +1,62 @@
-import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import React from "react";
+import emailjs from 'emailjs-com';
+import '../App.css';
 
+function Contact() {
+    const sendEmail = (e) => {
+        e.preventDefault();
+        
+            emailjs.sendForm('service_xr2b3to', 'template_7mdw816', e.target, 'user_hAC4qDkDBFsqKIalb7U6r')
+              .then((result) => {
+                  console.log(result.text);
+              }, (error) => {
+                  console.log(error.text);
+              });
+              e.target.reset()
+    }
 
-class Contact extends Component {
-  render() {
-    return(
-      <div className="contact-body" style={{backgroundColor:"rgb(219, 227, 231)"}}>
-        <Grid className="contact-grid" style={{backgroundColor:"rgb(219, 227, 231)"}}>
-          <Cell col={10}>
-            <h2>Clinton Rizzo</h2>
-            <img
-              src="images/me.jpg"
-              alt="avatar"
-              className="contactImage"
-              style={{height: '280px', width: '250px'}}
-               />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Hello! I have just finished my boot camp journey for full stack web development. My primary interests are in frontend and database using mySQL. The things I enjoy outside of coding is painting, reading, and doing paintball competitions.</p>
+    return (
+        
+        <div className="container">
+            <div className="row">
+                <div className="col-md-12">
+                    <div className="well well-sm">
+                        <form className="form-horizontal" onSubmit={sendEmail}>
+                            <fieldset>
+                                <legend className="text-left" style={{color:"white", paddingTop: "150px", paddingLeft: "15px"}}>Contact Us</legend>
 
-          </Cell>
-          <Cell col={10}>
-            <h2>Contact Me</h2>
-            <hr/>
+                                <div className="form-group">
+                                    <label className="col-md-3 control-label" for="name" style={{color:"white", marginTop:"15px"}}>Name</label>
+                                    <div className="col-md-9">
+                                        <input id="name" name="name" type="text" placeholder="Your name" class="form-control" />
+                                    </div>
+                                </div>
 
-            <div className="contact-list">
-              <List>
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (951)-288-2247
-                  </ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-envelope" aria-hidden="true"/>
-                    clint.rizzo92@gmail.com
-                  </ListItemContent>
-                </ListItem>
+                                <div className="form-group">
+                                    <label className="col-md-3 control-label" for="email" style={{color:"white"}}>Your E-mail</label>
+                                    <div className="col-md-9">
+                                        <input id="email" name="email" type="text" placeholder="Your email" class="form-control" />
+                                    </div>
+                                </div>
 
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i class="fa fa-microphone" style={{paddingLeft:"15px"}} aria-hidden="true"/>
-                    Clint-Rizzo
-                  </ListItemContent>
-                </ListItem>
-              </List>
+                                <div className="form-group">
+                                    <label className="col-md-12 control-label" for="message" style={{color: "white"}}>Your message</label>
+                                    <div className="col-md-9">
+                                        <textarea className="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                                    </div>
+                                </div>
+
+                                <div className="form-group">
+                                    <div className="col-md-12 text-center">
+                                        <button type="submit" className="button">Submit</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
             </div>
-          </Cell>
-        </Grid>
-      </div>
-    )
-  }
+        </div>)
 }
 
 export default Contact;
