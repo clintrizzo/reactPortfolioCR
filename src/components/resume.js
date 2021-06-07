@@ -92,6 +92,8 @@ class Resume extends Component {
                       />
           </Cell>
         </Grid>
+        <br></br>
+        <br></br>
       </div>
     )
   }
