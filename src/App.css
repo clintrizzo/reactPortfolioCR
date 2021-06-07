@@ -169,3 +169,19 @@
   border-top-right-radius: 100px;
 }
 
+.clint{
+  width: 200px;
+  height: 225px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+@media screen and (min-width: 812px){
+  .clint{
+  width: 400px;
+  height: 425px;
+  padding: 10px;
+  border-radius: 50px;
+  }
+}
+
