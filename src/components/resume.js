@@ -25,9 +25,6 @@ class Resume extends Component {
             <p>(951) 288-2247</p>
             <h5>Email</h5>
             <p>clint.rizzo92@gmail.com</p>
-            <h5>Copy of Resume</h5>
-            <a href="./images/Clinton_Rizzo_Resume (1).PDF">Clint Rizzo</a>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8} style={{borderRadius:"50px"}}>
             <h2>Education</h2>
