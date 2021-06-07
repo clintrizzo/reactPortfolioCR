@@ -178,7 +178,7 @@ class Projects extends Component {
             <CardActions border>
               <center>
               <Button colored><a href="https://github.com/clintrizzo/joyhunter" rel="noopener noreferrer" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
-              <Button colored><a href="" rel="noopener noreferrer" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
+              <Button colored><a href="https://joyhunter2.herokuapp.com/" rel="noopener noreferrer" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
               </center>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
