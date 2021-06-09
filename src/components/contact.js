@@ -20,31 +20,34 @@ function Contact() {
                 <div>
                     <div>
                         <form onSubmit={sendEmail}>
-                            <legend className="text-left" style={{color:"black", paddingTop: "150px", paddingLeft: "15px"}}>Send me a message</legend>
-                            <div className="form-group">
-                                <label for="name" style={{color:"black", marginTop:"15px"}}>Name</label>
-                                <div>
-                                    <input id="name" name="name" type="text" placeholder="Your name" class="form-control" />
-                                </div>
+                            <center>
+                            <legend className='contact-title' style={{color:'black', paddingTop:'60px', paddingBottom:'40px'}}>Contact me via email</legend>
+                            </center>
+                            <div className='form-group'>
+                                <label for='name' style={{color:'black'}}>Name:</label>
+                                    <div>
+                                        <input id='name' name='name' type="text" placeholder="Your name" class="form-control" />
+                                    </div>
                             </div>
+                            <br></br>
                             <div className="form-group">
-                                <label for="email" style={{color:"black"}}>Your E-mail</label>
-                                <div>
-                                    <input id="email" name="email" type="text" placeholder="Your email" class="form-control" />
-                                </div>
+                                <label for="email" style={{color:"black"}}>E-mail:</label>
+                                    <div>
+                                        <input id="email" name="email" type="text" placeholder="Your email" class="form-control" />
+                                    </div>
                             </div>
+                            <br></br>
                             <div className="form-group">
-                                <label for="message" style={{color: "black"}}>Your message</label>
-                                <div>
-                                    <textarea className="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="12"></textarea>
-                                </div>
+                                <label for="message" style={{color: "black"}}>Message:</label>
+                                    <div>
+                                        <textarea className="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="12"></textarea>
+                                    </div>
                             </div>
+                            <br></br>
                             <div className="form-group">
                                 <div>
                                     <button type="submit" className="button">Submit</button>
                                 </div>
-                                <br></br>
-                                <br></br>
                             </div>
                         </form>
                     </div>
