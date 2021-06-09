@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import Footer from './footer/footer';
 
 
 class Projects extends Component {
@@ -65,7 +66,11 @@ class Projects extends Component {
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
+            <Footer/>
           </Card>
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
 
 
@@ -125,8 +130,11 @@ class Projects extends Component {
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
+            <Footer/>
           </Card>
-          
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
       )
     } else if(this.state.activeTab === 2) {
@@ -184,7 +192,11 @@ class Projects extends Component {
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
+            <Footer/>
           </Card>
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
       )
     } 
