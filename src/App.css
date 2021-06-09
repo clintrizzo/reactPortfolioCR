@@ -1,44 +1,104 @@
 .header-color {
-  background: #0425df;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #45d7fc, #4da4ddd0, #1b53cc);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #45d7fc, #4da4ddd0, #1b53cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/*home page*/
-
 .landing-grid {
-  background: #0425df;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #45d7fc, #4da4ddd0, #1b53cc);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #45d7fc, #4da4ddd0, #1b53cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  margin-top: 50px;
 }
 
-@media screen and (max-width: 812px){
-  .landing-grid{
-      width: 100%;
-      margin: 0;
-      box-sizing: border-box;
-      text-align: center;
-      margin-top: 30px;
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 55px;
+  padding-bottom: 20px;
+  margin-top: 38px;
+}
+
+.banner-text h1{
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.banner-text h2 {
+  font-size: 50px;
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.banner-text hr {
+  border-top: 5px dashed white;
+  width: 70%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1.5em;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.social-links {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 45px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 812px){
+  .banner-text{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 55px;
   }
+
   .languages{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5px;
   }
-  .social-links {
-    font-size: 10px;
-    padding-right: 100px;
-    margin:20px;
-    color: #45d7fc;
+
+  .banner-text h1{
+    font-size: 66px;
   }
-  .name{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
+
+  .social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+  .social-links i {
+    color: white;
+    font-size: 70px;
+    padding: 5px;
+  }
+  .banner-text hr {
+    border-top: 3px dashed white;
+    width: 70%;
+    margin: auto;
   }
 }
 
@@ -52,7 +112,7 @@
 }
 
 /*dont change section responsive for desktop to phone*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 812px){
   .projects-grid{
     width:100%;
     height: 100%;
@@ -68,48 +128,6 @@
   color: white;
   padding: 2em;
 }
-
-/* contact page css */
-
-.contact-body {
-  margin: auto;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-}
-
-.contact-grid {
-  text-align: center;
-  justify-content: center;
-  width: 80%;
-  height: 550px;
-  background: white;
-  color: black;
-  margin-bottom: 20px;
-}
-
-.contact-grid h2 {
-  font-family: 'Anton', sans-serif;
-}
-
-.contact-grid p {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
-}
-
-.contact-grid hr {
-  border-top: 5px dotted black;
-  width: 50%;
-  margin: auto;
-}
-
-.contact-list i {
-  font-size: 26px;
-  padding-right: 5rem;
-  text-align: center;
-}
-
 
 /* contact page css */
 
@@ -174,4 +192,3 @@ input, textarea{
   border-radius: 50px;
   }
 }
-
