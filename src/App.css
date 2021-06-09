@@ -1,13 +1,15 @@
+/*color for the navbar*/
 .header-color {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #073ff7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #64a0c7, #1887e2, #0d508f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #64a0c7, #1887e2, #0d508f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/*homepage design*/
 .landing-grid {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #073ff7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #64a0c7, #1887e2, #0d508f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #64a0c7, #1887e2, #0d508f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
@@ -27,21 +29,27 @@
 }
 
 .banner-text h1{
-  font-size: 66px;
+  font-size: 50px;
   font-weight: bold;
   color: white;
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .banner-text h2 {
-  font-size: 50px;
+  font-size: 35px;
   color: white;
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+.banner-text i{
+  font-size: 22px;
+  text-align: center;
+  padding-right: 7px;
+}
+
 .banner-text hr {
-  border-top: 5px dashed white;
-  width: 70%;
+  border-top: 3px dashed white;
+  width: 80%;
   margin: auto;
 }
 
@@ -82,6 +90,19 @@
     font-size: 66px;
   }
 
+  .banner-text h2{
+    font-size: 66px;
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
+
+
+  .banner-text i{
+    font-size: 22px;
+    text-align: center;
+    padding-right: 7px;
+  }
+
   .social-links{
     display: flex;
     justify-content: space-between;
@@ -90,17 +111,22 @@
     font-size: 50px;
     padding-bottom: 20px;
   }
+
   .social-links i {
     color: white;
     font-size: 70px;
     padding: 5px;
   }
+
   .banner-text hr {
     border-top: 3px dashed white;
     width: 70%;
     margin: auto;
   }
 }
+
+
+
 
 /*project page*/
 
@@ -122,6 +148,8 @@
 /*dont change section responsive for desktop to phone*/
 
 
+
+
 /* Resume Page css */
 .resume-right-col {
   background: #27221F;
@@ -129,12 +157,41 @@
   padding: 2em;
 }
 
+.clint{
+  width: 200px;
+  height: 225px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+@media screen and (min-width: 812px){
+  .clint{
+  width: 400px;
+  height: 425px;
+  padding: 10px;
+  border-radius: 50px;
+  }
+}
+
+
 /* contact page css */
 
 .container{
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  height:95%;
+}
+
+.contact-title{
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  margin: 7px;
 }
 
 input, textarea{
@@ -145,10 +202,11 @@ input, textarea{
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .button{
-  width: 100%;
+  width:30%;
   background-color: #45d7fc;
   color: white;
   padding: 14px 20px;
@@ -166,29 +224,5 @@ input, textarea{
 @media screen and (min-width: 768px){
   .contact-list{
     height: 100%;
-  }
-}
-
-/*images*/
-.contactImage{
-  border-bottom-left-radius: 100px;
-  border-top-left-radius: 100px;
-  border-bottom-right-radius: 100px;
-  border-top-right-radius: 100px;
-}
-
-.clint{
-  width: 200px;
-  height: 225px;
-  padding: 10px;
-  border-radius: 50px;
-}
-
-@media screen and (min-width: 812px){
-  .clint{
-  width: 400px;
-  height: 425px;
-  padding: 10px;
-  border-radius: 50px;
   }
 }
