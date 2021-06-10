@@ -9,7 +9,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Clinton Rizzo</h1>
               <div clasName='connect'>
-                <i class="fa fa-phone" style={{color:'white', paddingBottom:'30px', paddingRight:'20px'}}> (951) 288-2247 </i><i class="fa fa-envelope" style={{color:'white', paddingBottom:'30px', paddingLeft:'20px'}}> clint.rizzo92@gmail.com</i>
+                <i class="fa fa-phone" style={{color:'white', paddingBottom:'30px', paddingRight:'5px'}}> (951) 288-2247 </i><i class="fa fa-envelope" style={{color:'white', paddingBottom:'30px', paddingLeft:'7px'}}> clint.rizzo92@gmail.com</i>
               </div>
               <hr style={{width:'50%'}}></hr>
               <h2 className='title'>Full Stack Web Developer</h2>
