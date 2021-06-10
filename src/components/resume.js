@@ -11,9 +11,9 @@ class Resume extends Component {
       <div style={{backgroundColor:"rgb(219, 227, 231)"}}>
         <Grid>
           <Cell col={4}>
-            <h2 style={{paddingTop: '15px', textAlign:'center'}}>Clinton Rizzo</h2>
+            <h2 style={{paddingTop: '15px'}}>Clinton Rizzo</h2>
             <img src="./images/me.jpg" alt="clintRizzo" className='me'></img>
-            <h4 style={{color: 'grey'}}>Full Stack Web Developer</h4>
+            <h3 style={{color: 'grey'}}>Full Stack Web Developer</h3>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p className='developerStory'>Web Developer with a background in Customer Service. Recognized as proactive, resourceful,
                 and persistent problem-solver. Excellent communicator with effective client relationship
@@ -28,7 +28,12 @@ class Resume extends Component {
             <p className='answer'>clint.rizzo92@gmail.com</p>
           </Cell>
           <Cell className="resume-right-col" col={8} style={{borderRadius:"50px"}}>
-            <h2>Education</h2>
+            <h2>Languages:</h2>
+            <p className='languages'>HTML/CSS | Bootstrap | JavaScript | MySQL | NodeJS | Express | MongoDB | React</p>
+
+            <hr style={{borderTop: '3px solid #e22947'}} />
+
+            <h2>Education:</h2>
             <Education
               startYear={2007}
               endYear={2011}
@@ -39,12 +44,12 @@ class Resume extends Component {
                  startYear={2020}
                  endYear={2021}
                  schoolName="Trilogy @ University of California Irvince"
-                 schoolDescription="This was a six month boot camp where I learned MERN Full Stack Web Development. Languages learned HTML/CSS, NodeJS, mySQL, MongoDB, React"
+                 schoolDescription="This was a six month boot camp where I learned MERN Full Stack Web Development. Languages learned HTML/CSS, NodeJS, Express, MySQL, MongoDB, React"
             />
 
               <hr style={{borderTop: '3px solid #e22947'}} />
 
-            <h2>Experience</h2>
+            <h2>Experience:</h2>
             <Experience
               startYear={2019}
               endYear={"Present"}
@@ -69,10 +74,10 @@ class Resume extends Component {
 
               <hr style={{borderTop: '3px solid #e22947'}} />
               
-            <h2>Skills</h2>
+            <h2>Skills:</h2>
             <Skills 
               skill="javascript "
-              progress= {50}
+              progress= {55}
             />
             <Skills
               skill="HTML/CSS "
@@ -84,7 +89,7 @@ class Resume extends Component {
             />
             <Skills
               skill="React "
-              progress= {40}
+              progress= {50}
             />
           </Cell>
         </Grid>
