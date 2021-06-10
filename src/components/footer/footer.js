@@ -3,7 +3,7 @@ import "./footer.css";
 
   const Footer = () => (
     <div className="footer">
-      <p className="letters">@ Clinton Rizzo</p>
+      <a href="https://github.com/clintrizzo" rel="noopener noreferrer" target="_blank" className='letters'>@ Clinton Rizzo</a>
       <hr className="line"></hr>
     </div>
   );
