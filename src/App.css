@@ -71,12 +71,15 @@
   padding:13.5px;
 }
 
+.social-links i:hover{
+  color: #2b77be;
+}
+
 @media screen and (min-width: 812px){
   .banner-text{
     background-color: black;
     opacity: .8;
-    width: 75%;
-    margin: auto;
+    width: 60%;
     border-radius: 55px;
   }
 
@@ -110,6 +113,10 @@
     color: white;
     font-size: 70px;
     padding: 5px;
+  }
+
+  .social-links i:hover{
+    color: #2b77be;
   }
 
   .banner-text hr {
