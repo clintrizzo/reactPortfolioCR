@@ -230,17 +230,19 @@ label{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15px;
   margin: 7px;
+  margin-left: 20px;
 }
 
 input, textarea{
-  width: 100%;
+  width: 90%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 15px
 }
 
 .button{
@@ -253,6 +255,7 @@ input, textarea{
   border-radius: 4px;
   cursor: pointer;
   font-size: 20px;
+  margin-left: 20px
 }
 
 .button:hover{
