@@ -11,20 +11,21 @@ class Resume extends Component {
       <div style={{backgroundColor:"rgb(219, 227, 231)"}}>
         <Grid>
           <Cell col={4}>
-            <h2 style={{paddingTop: '15px'}}>Clinton Rizzo</h2>
+            <h2 style={{paddingTop: '15px', textAlign:'center'}}>Clinton Rizzo</h2>
+            <img src="./images/me.jpg" alt="clintRizzo" className='me'></img>
             <h4 style={{color: 'grey'}}>Full Stack Web Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Web Developer with a background in Customer Service. Recognized as proactive, resourceful,
+            <p className='developerStory'>Web Developer with a background in Customer Service. Recognized as proactive, resourceful,
                 and persistent problem-solver. Excellent communicator with effective client relationship
                 building skills. Graduate of (Trilogy) through (University of California Irvine).
             </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <h5>Address</h5>
-            <p>8853 Lemonwood Drive Corona, California</p>
-            <h5>Phone</h5>
-            <p>(951) 288-2247</p>
-            <h5>Email</h5>
-            <p>clint.rizzo92@gmail.com</p>
+            <h5 className='info'>Address:</h5>
+            <p className='answer'>8853 Lemonwood Drive Corona, California</p>
+            <h5 className='info'>Phone:</h5>
+            <p className='answer'>(951) 288-2247</p>
+            <h5 className='info'>Email:</h5>
+            <p className='answer'>clint.rizzo92@gmail.com</p>
           </Cell>
           <Cell className="resume-right-col" col={8} style={{borderRadius:"50px"}}>
             <h2>Education</h2>
@@ -69,21 +70,21 @@ class Resume extends Component {
               <hr style={{borderTop: '3px solid #e22947'}} />
               
             <h2>Skills</h2>
-            <Skills
-              skill="javascript"
-              progress={50}
+            <Skills 
+              skill="javascript "
+              progress= {50}
             />
             <Skills
-              skill="HTML/CSS"
-              progress={70}
+              skill="HTML/CSS "
+              progress= {70}
             />
             <Skills
-              skill="NodeJS"
-              progress={45}
+              skill="NodeJS "
+              progress= {45}
             />
             <Skills
-              skill="React"
-              progress={40}
+              skill="React "
+              progress= {40}
             />
           </Cell>
         </Grid>
