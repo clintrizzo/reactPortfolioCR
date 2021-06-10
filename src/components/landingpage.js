@@ -8,13 +8,11 @@ class Landing extends Component {
         <Grid className="landing-grid">
             <div className="banner-text">
               <h1>Clinton Rizzo</h1>
-              <div clasName='connect'>
-                <i class="fa fa-phone" style={{color:'white', paddingBottom:'30px', paddingRight:'5px'}}> (951) 288-2247 </i><i class="fa fa-envelope" style={{color:'white', paddingBottom:'30px', paddingLeft:'7px'}}> clint.rizzo92@gmail.com</i>
-              </div>
               <hr style={{width:'50%'}}></hr>
               <h2 className='title'>Full Stack Web Developer</h2>
               <hr/>
               <p className='languages'>HTML/CSS | Bootstrap | JavaScript | MySQL | NodeJS | Express | MongoDB | React</p>
+              <hr style={{paddingBottom:'20px', width:'50%'}}/>
                 <div className="social-links">
                 {/* LinkedIn */}
                   <a href="https://www.linkedin.com/in/clinton-rizzo-79b67b1b6/" rel="noopener noreferrer" target="_blank">
