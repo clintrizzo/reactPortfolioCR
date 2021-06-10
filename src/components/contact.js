@@ -21,7 +21,7 @@ function Contact() {
                     <div>
                         <form onSubmit={sendEmail}>
                             <center>
-                            <legend className='contact-title' style={{color:'black', paddingTop:'60px', paddingBottom:'40px'}}>Contact me via email</legend>
+                            <legend className='contact-title' style={{color:'black', paddingTop:'20px', paddingBottom:'40px', fontSize:'25px'}}>Contact me via email</legend>
                             </center>
                             <div className='form-group'>
                                 <label for='name' style={{color:'black'}}>Name:</label>
@@ -40,7 +40,7 @@ function Contact() {
                             <div className="form-group">
                                 <label for="message" style={{color: "black"}}>Message:</label>
                                     <div>
-                                        <textarea className="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="12"></textarea>
+                                        <textarea className="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
                                     </div>
                             </div>
                             <br></br>
@@ -52,7 +52,7 @@ function Contact() {
                         </form>
                         <br></br>
                         <br></br>
-                        <br></br>
+                    <br></br>
                     </div>
                 </div>
             </div>
