@@ -1,4 +1,4 @@
-.footer{
+.footer a{
     color: white;
     text-align: center;
     background-color: rgb(126, 119, 119);
@@ -7,7 +7,7 @@
     left: 0;
     width: 100%;
     height: 35px;
-    opacity: .6;
+    opacity: .9;
   }
 
 .line{
@@ -17,5 +17,6 @@
 
 .letters{
     font-size: 20px;
-    padding-top: 5px;
+    padding-top: 10px;
+    text-decoration: none;
 }
