@@ -266,4 +266,8 @@ input, textarea{
   .contact-list{
     height: 100%;
   }
+
+  input, textarea{
+    width:98%
+  }
 }
