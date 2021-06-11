@@ -12,7 +12,6 @@
   - [My-info:](#my-info)
     
 ## Description:
-![License](https://img.shields.io/badge/License--red "License Badge")
 
 This portfolio was created for myself to show to potential employeers as well as a way for me to practice react. This portfolio showcases
 my resume, projects I have worked on throughout the last six months, and a functioning contact page. The contact page was created using [email-js](https://www.emailjs.com/docs/examples/reactjs/). 
