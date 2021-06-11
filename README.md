@@ -34,10 +34,10 @@ npx create-react-app "my-app"
 Clinton Rizzo
     
 ## Images
-- ![image](images/ReadMe/landing.jpg)
-- ![image](images/ReadMe/resume.jpg)
-- ![image](images/ReadMe/projects.jpg)
-- ![image](images/ReadMe/contact.jpg)
+- ![image](./ReadMe/landing.jpg)
+- ![image](./ReadMe/resume.jpg)
+- ![image](./ReadMe/projects.jpg)
+- ![image](./ReadMe/contact.jpg)
 
 ## My-info:
 
