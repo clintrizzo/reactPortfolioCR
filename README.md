@@ -34,11 +34,12 @@ npx create-react-app "my-app"
 Clinton Rizzo
     
 ## Images
+- images from mobile device
 <div flexbox='column'>
-<img src ="public/images/ReadMe/landing.jpg" alt='landingpage' width='250px' height='300px'>
-<img src ="public/images/ReadMe/resume.jpg" alt='landingpage' width='250px' height='300px'>
-<img src ="public/images/ReadMe/projects.jpg" alt='landingpage' width='250px' height='300px'>
-<img src ="public/images/ReadMe/contact.jpg" alt='landingpage' width='250px' height='300px'>
+<img src ="public/images/ReadMe/landing.jpg" alt='landingpage' width='250px' height='350px'>
+<img src ="public/images/ReadMe/resume.jpg" alt='landingpage' width='250px' height='350px'>
+<img src ="public/images/ReadMe/projects.jpg" alt='landingpage' width='250px' height='350px'>
+<img src ="public/images/ReadMe/contact.jpg" alt='landingpage' width='250px' height='350px'>
 <div>
 
 ## My-info:
