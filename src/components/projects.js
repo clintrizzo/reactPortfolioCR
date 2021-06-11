@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import Footer from './footer/footer';
 
 
 class Projects extends Component {
@@ -16,7 +15,7 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={10} style={{minWidth: '450', marginRight:'75px'}}>
             <CardTitle style={{color: '#fff', height: '180px', marginTop:"5px", background: 'url(./images/javascript/calendar.jpg) center / cover'}}></CardTitle>
             <CardText>
               <h6><strong>Busy Parent Scheduler</strong></h6>
@@ -34,7 +33,7 @@ class Projects extends Component {
           </Card>
           <br></br>
           {/* Project 2 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={10} style={{minWidth: '450', marginRight:'75px'}}>
             <CardTitle style={{color: '#fff', height: '180px', marginTop:"5px", background: 'url(./images/javascript/2d.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>Brick Breaker</strong></h6>
@@ -52,7 +51,7 @@ class Projects extends Component {
           </Card>
           <br></br>
           {/* Project 3 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={10} style={{minWidth: '450', marginRight:'75px'}}>
             <CardTitle style={{color: '#fff', height: '180px', marginTop:"5px", background: 'url(./images/javascript/weatherBoard.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>Weather Board</strong></h6>
@@ -67,10 +66,7 @@ class Projects extends Component {
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
-            <Footer/>
           </Card>
-          <br></br>
-          <br></br>
           <br></br>
         </div>
 
@@ -80,7 +76,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={10} style={{minWidth: '450', marginRight:'75x'}}>
             <CardTitle style={{color: '#fff', height: '180px', background: 'url(./images/mySQL/readMe.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>ReadMe Generator</strong></h6>
@@ -98,7 +94,7 @@ class Projects extends Component {
           </Card>
           <br></br>
           {/* Project 2 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={10} style={{minWidth: '450', marginRight:'75px'}}>
             <CardTitle style={{color: '#fff', height: '180px', background: 'url(./images/mySQL/employeeTracker.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>Employee Tracker</strong></h6>
@@ -116,7 +112,7 @@ class Projects extends Component {
           </Card>
         <br></br>
           {/* Project 3 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={10} style={{minWidth: '450', marginRight:'75px'}}>
             <CardTitle style={{color: '#fff', height: '180px', background: 'url(./images/mySQL/teamProfile.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>Team Profile</strong></h6>
@@ -131,10 +127,7 @@ class Projects extends Component {
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
-            <Footer/>
           </Card>
-          <br></br>
-          <br></br>
           <br></br>
         </div>
       )
@@ -142,7 +135,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={10} style={{minWidth: '450', marginRight:'75px'}}>
             <CardTitle style={{color: '#fff', height: '180px', background: 'url(./images/react/userDirectory.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>User Directory</strong></h6>
@@ -159,7 +152,7 @@ class Projects extends Component {
           </Card>
         <br></br>
           {/* Project 2 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={10} style={{minWidth: '450', marginRight:'75px'}}>
             <CardTitle style={{color: '#fff', height: '180px', background: 'url(./images/react/googleSearch.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>Google Book Search</strong></h6>
@@ -178,7 +171,7 @@ class Projects extends Component {
           </Card>
           <br></br>
           {/* Project 3 */}
-          <Card shadow={10} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={10} style={{minWidth: '450', marginRight:'75px'}}>
             <CardTitle style={{color: '#fff', height: '180px', background: 'url(./images/react/joyHunter.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>Joy Hunter</strong></h6>
@@ -193,10 +186,7 @@ class Projects extends Component {
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
-            <Footer/>
           </Card>
-          <br></br>
-          <br></br>
           <br></br>
         </div>
       )
