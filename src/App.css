@@ -81,6 +81,7 @@
     opacity: .8;
     width: 60%;
     border-radius: 55px;
+    margin-top: 4px;
   }
 
   .banner-text h1{
@@ -188,6 +189,14 @@
 
 }
 
+@media screen and (min-width: 1000px){
+  .me{
+    width: 350px;
+    height: 550px;
+    border-radius: 50px;
+    }
+  }
+
 
 /*project page*/
 
@@ -198,6 +207,7 @@
   justify-content: center;
   margin-top: 10px;
   padding-top: 10px;
+  margin-left: 10px;
 }
 
 /*dont change section responsive for desktop to phone*/
@@ -206,7 +216,7 @@
     width:100%;
     height: 100%;
     flex-direction:row;
-    margin-left: 350px;
+    margin-left: 300px;
     margin-top: 30px;
   }
 }
