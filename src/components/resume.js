@@ -21,7 +21,7 @@ class Resume extends Component {
             </p>
             <hr style={{borderTop: '3px solid #e22947', width: '65%'}}/>
             <h5 className='info'>Address:</h5>
-            <p className='answer'>8853 Lemonwood Drive Corona, California</p>
+            <p className='answer'>Corona, California</p>
             <h5 className='info'>Phone:</h5>
             <p className='answer'>(951) 288-2247</p>
             <h5 className='info'>Email:</h5>
