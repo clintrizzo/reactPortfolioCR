@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Clinton Rizzo</Link>} scroll>
+        <Header style={{color:'white'}} className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Clinton Rizzo</Link>} scroll>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>

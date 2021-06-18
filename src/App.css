@@ -18,6 +18,10 @@
   height: 100%;
 }
 
+.nav{
+  color:white;
+}
+
 .banner-text {
   background-color: black;
   opacity: .8;
@@ -202,7 +206,7 @@
 
 .projects-grid{
   display: flex;
-  flex: 1;
+  flex: 5;
   flex-direction: column;
   justify-content: center;
   margin-top: 10px;

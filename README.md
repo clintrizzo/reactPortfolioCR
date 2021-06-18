@@ -28,7 +28,7 @@ npx create-react-app "my-app"
 5. emailjs-com (npm install emailjs-com --save)
 
 # deployed Site:
-[heroku](https://clintrizzoportfolio.herokuapp.com/)
+[Portfolio](https://clintrizzoportfolio.herokuapp.com/)
     
 ## Contributers:
 Clinton Rizzo
