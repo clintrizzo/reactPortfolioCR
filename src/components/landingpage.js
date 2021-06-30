@@ -31,6 +31,10 @@ class Landing extends Component {
                   <a href="https://www.instagram.com/clintrizzo/" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-instagram" aria-hidden="true" />
                   </a>
+                  {/*resume*/}
+                  <a href="https://www.instagram.com/clintrizzo/" rel="noopener noreferrer" target="_blank">
+                    <i className="fas fa folder-open" aria-hidden="true"/>
+                  </a>
                 </div>
             </div>
         </Grid>
