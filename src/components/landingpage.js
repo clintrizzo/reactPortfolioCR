@@ -12,8 +12,6 @@ class Landing extends Component {
               <hr style={{width:'50%'}}></hr>
               <h2 className='title'>Full Stack Web Developer</h2>
               <hr/>
-              <br></br>
-              <br></br>
                 <div className="social-links">
                   {/* Github */}
                   <a href="https://github.com/clintrizzo" rel="noopener noreferrer" target="_blank">
@@ -33,7 +31,7 @@ class Landing extends Component {
                   </a>
                   {/*resume*/}
                   <a href="https://www.instagram.com/clintrizzo/" rel="noopener noreferrer" target="_blank">
-                    <i className="fas fa folder-open" aria-hidden="true"/>
+                    <i className="fa fa-folder-open" aria-hidden="true" />
                   </a>
                 </div>
             </div>
