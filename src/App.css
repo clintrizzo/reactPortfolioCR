@@ -37,8 +37,7 @@
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-.banner-text h2 {
-  font-size: 35px;
+.banner-text h4, .banner-text h5 {
   color: white;
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
@@ -71,12 +70,13 @@
 
 .social-links i {
   color: white;
-  font-size: 45px;
+  font-size: 35px;
   padding:13.5px;
 }
 
 .social-links i:hover{
   color: #2b77be;
+  font-size: 80px;
 }
 
 @media screen and (min-width: 812px){
@@ -92,8 +92,7 @@
     font-size: 66px;
   }
 
-  .banner-text h2{
-    font-size: 66px;
+  .banner-text h4, .banner-text h5{
     padding-top:10px;
     padding-bottom: 10px;
   }
