@@ -79,6 +79,8 @@
   font-size: 80px;
 }
 
+
+/*for desktop design*/
 @media screen and (min-width: 812px){
   .banner-text{
     background-color: black;
@@ -177,6 +179,8 @@
   padding-left: 16px;
 }
 
+
+/*for desktop design*/
 @media screen and (min-width: 812px){
   .me{
   width: 500px;
@@ -192,6 +196,8 @@
 
 }
 
+
+/*for desktop design*/
 @media screen and (min-width: 1000px){
   .me{
     width: 350px;
@@ -214,6 +220,7 @@
 }
 
 /*dont change section responsive for desktop to phone*/
+/*for desktop design*/
 @media screen and (min-width: 812px){
   .projects-grid{
     width:100%;
@@ -275,6 +282,7 @@ input, textarea{
   background-color: #4da4ddd0;
 }
 
+/*for desktop design*/
 @media screen and (min-width: 768px){
   .contact-list{
     height: 100%;
