@@ -37,7 +37,7 @@
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-.banner-text h4, .banner-text h5 {
+.banner-text h3, .banner-text h5 {
   color: white;
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
@@ -94,7 +94,7 @@
     font-size: 66px;
   }
 
-  .banner-text h4, .banner-text h5{
+  .banner-text h3, .banner-text h5{
     padding-top:10px;
     padding-bottom: 10px;
   }
