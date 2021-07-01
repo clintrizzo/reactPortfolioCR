@@ -10,8 +10,10 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Clinton Rizzo</h1>
               <hr style={{width:'50%'}}></hr>
-              <h2 className='title'>Full Stack Web Developer</h2>
+              <h4 className='title'>Full Stack Web Developer</h4>
+              <h5 className='title'>HTML/CSS | Bootstrap | JavaScript | MySQL | NodeJS | Express | MongoDB | React</h5>
               <hr/>
+              <br></br>
                 <div className="social-links">
                   {/* Github */}
                   <a href="https://github.com/clintrizzo" rel="noopener noreferrer" target="_blank">
