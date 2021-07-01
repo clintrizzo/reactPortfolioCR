@@ -10,7 +10,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Clinton Rizzo</h1>
               <hr style={{width:'50%'}}></hr>
-              <h4 className='title'>Full Stack Web Developer</h4>
+              <h3 className='title'>Full Stack Web Developer</h3>
               <h5 className='title'>HTML/CSS | Bootstrap | JavaScript | MySQL | NodeJS | Express | MongoDB | React</h5>
               <hr/>
               <br></br>
