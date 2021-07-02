@@ -9,7 +9,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
             <div className="banner-text">
               <h1>Clinton Rizzo</h1>
-              <hr style={{width:'50%'}}></hr>
+              <hr style={{width:'60%', color:'red'}}></hr>
               <h3 className='title'>Full Stack Web Developer</h3>
               <h5 className='title'>HTML/CSS | Bootstrap | JavaScript | MySQL | NodeJS | Express | MongoDB | React</h5>
               <hr/>
