@@ -31,34 +31,31 @@
 }
 
 .banner-text h1{
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 40px;
   color: white;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.banner-text h3, .banner-text h5 {
-  color: white;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+.banner-text h3{
+  padding-bottom: 3px;
+  font-size: 30px;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.banner-text i{
-  font-size: 22px;
-  text-align: center;
-  padding-right: 7px;
+.banner-text h5{
+  padding-bottom: 3px;
+  font-size: 18px;
+  color:white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  word-spacing: 3px;
 }
+
 
 .banner-text hr {
-  border-top: 3px dashed white;
+  border-top: 2px solid red;
   width: 80%;
   margin: auto;
-}
-
-.banner-text p {
-  color: white;
-  font-size: 20px;
-  padding: 1.5em;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .social-links {
