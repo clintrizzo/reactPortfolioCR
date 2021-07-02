@@ -76,7 +76,7 @@
 
 .social-links i:hover{
   color: #2b77be;
-  font-size: 80px;
+  font-size: 55px;
 }
 
 /*Social links hover affects for desktop only*/
@@ -89,8 +89,7 @@
   display: block;
   color: white;
   text-decoration: none;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 15px;
 }
 /*youtube*/
 .hiddenText1{
@@ -101,8 +100,7 @@
   display: block;
   color: white;
   text-decoration: none;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 15px;
 }
 /*linkedin*/
 .hiddenText2{
@@ -113,8 +111,7 @@
   display: block;
   color: white;
   text-decoration: none;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 15px;
 }
 /*instagram*/
 .hiddenText3{
@@ -125,8 +122,7 @@
   display: block;
   color: white;
   text-decoration: none;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 15px;
 }
 /*resume*/
 .hiddenText4{
@@ -136,12 +132,9 @@
 .fa-folder-open:hover + .hiddenText4 {
   display: block;
   color: white;
-  text-decoration: none;
-  font-size: 22px;
-  font-weight: bold;
+  text-decoration:none;
+  font-size: 15px;
 }
-
-
 
 /*LANDING PAGE for desktop design*/
 @media screen and (min-width: 812px){
@@ -150,23 +143,22 @@
     opacity: .8;
     width: 60%;
     border-radius: 55px;
-    margin-top: 4px;
+    margin-top: 40px;
   }
 
   .banner-text h1{
-    font-size: 66px;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  .banner-text h3, .banner-text h5{
-    padding-top:10px;
-    padding-bottom: 10px;
+  .banner-text h3{
+    padding-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-
-  .banner-text i{
-    font-size: 22px;
-    text-align: center;
-    padding-right: 7px;
+  .banner-text h5{
+    padding-bottom: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
   }
 
   .social-links{
@@ -174,13 +166,12 @@
     justify-content: space-between;
     width: 50%;
     margin: auto;
-    font-size: 50px;
     padding-bottom: 20px;
   }
 
   .social-links i {
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     padding: 5px;
   }
 
@@ -189,7 +180,7 @@
   }
 
   .banner-text hr {
-    border-top: 3px dashed white;
+    border-top: 3px solid red;
     width: 70%;
     margin: auto;
   }
@@ -201,10 +192,15 @@
   background-color: #f2f2f2;
 }
 
+.hTag{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .resumeName{
   text-align: center;
   margin-top: -25px;
   font-size: 37px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .resume-right-col {
@@ -215,17 +211,17 @@
 
 .developerStory{
   font-size: 18px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .info{
   font-size: 25px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .answer{
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .me{
@@ -236,7 +232,7 @@
 }
 
 .languages{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 15px;
   padding-bottom: 20px;
   padding-left: 16px;
@@ -252,7 +248,7 @@
   }
 
   .languages{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
     padding-bottom: 20px;
   }
@@ -306,11 +302,11 @@
 
 .contact-title{
   font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 label{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 15px;
   margin: 7px;
   margin-left: 20px;
@@ -324,7 +320,7 @@ input, textarea{
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-left: 15px
 }
 
