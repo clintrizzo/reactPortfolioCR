@@ -79,8 +79,71 @@
   font-size: 80px;
 }
 
+/*Social links hover affects for desktop only*/
+/*github*/
+.hiddenText0{
+  display: none;
+}
 
-/*for desktop design*/
+.fa-github-square:hover + .hiddenText0 {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+/*youtube*/
+.hiddenText1{
+  display: none;
+}
+
+.fa-youtube-square:hover + .hiddenText1 {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+/*linkedin*/
+.hiddenText2{
+  display: none;
+}
+
+.fa-linkedin-square:hover + .hiddenText2 {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+/*instagram*/
+.hiddenText3{
+  display: none;
+}
+
+.fa-instagram:hover + .hiddenText3 {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+/*resume*/
+.hiddenText4{
+  display: none;
+}
+
+.fa-folder-open:hover + .hiddenText4 {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+
+/*LANDING PAGE for desktop design*/
 @media screen and (min-width: 812px){
   .banner-text{
     background-color: black;
@@ -180,7 +243,7 @@
 }
 
 
-/*for desktop design*/
+/*RESUME for desktop design*/
 @media screen and (min-width: 812px){
   .me{
   width: 500px;
@@ -220,7 +283,7 @@
 }
 
 /*dont change section responsive for desktop to phone*/
-/*for desktop design*/
+/*PROJECTS for desktop design*/
 @media screen and (min-width: 812px){
   .projects-grid{
     width:100%;
@@ -282,7 +345,7 @@ input, textarea{
   background-color: #4da4ddd0;
 }
 
-/*for desktop design*/
+/*CONTACT PAGE for desktop design*/
 @media screen and (min-width: 768px){
   .contact-list{
     height: 100%;
