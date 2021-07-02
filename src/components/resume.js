@@ -12,7 +12,7 @@ class Resume extends Component {
           <Cell col={4}>
             <h2 className='resumeName' style={{paddingTop: '15px'}}>Clinton Rizzo</h2>
             <img src="./images/me.jpg" alt="clintRizzo" className='me'></img>
-            <h3 style={{color: 'black'}}>Full Stack Web Developer</h3>
+            <h3 className='hTag' style={{color: 'black'}}>Full Stack Web Developer</h3>
             <hr style={{borderTop: '3px solid #e22947', width: '65%'}}/>
             <p className='developerStory'>Web Developer with a background in Customer Service. Recognized as proactive, resourceful,
                 and persistent problem-solver. Excellent communicator with effective client relationship
@@ -27,12 +27,12 @@ class Resume extends Component {
             <p className='answer'>clint.rizzo92@gmail.com</p>
           </Cell>
           <Cell className="resume-right-col" col={8} style={{borderRadius:"50px"}}>
-            <h2>Languages:</h2>
+            <h2 className='hTag'>Languages:</h2>
             <p className='languages'>HTML/CSS | Bootstrap | JavaScript | MySQL | NodeJS | Express | MongoDB | React</p>
 
             <hr style={{borderTop: '3px solid #e22947'}} />
 
-            <h2>Education:</h2>
+            <h2 className='hTag'>Education:</h2>
             <Education
               startYear={2007}
               endYear={2011}
@@ -48,7 +48,7 @@ class Resume extends Component {
 
               <hr style={{borderTop: '3px solid #e22947'}} />
 
-            <h2>Experience:</h2>
+            <h2 className='hTag'>Experience:</h2>
             <Experience
               startYear={2019}
               endYear={"Present"}
