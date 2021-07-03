@@ -74,7 +74,7 @@
 
 .social-links i:hover{
   color: #2b77be;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 /*Social links hover affects for desktop only*/
@@ -175,7 +175,7 @@
 
   .social-links i:hover{
     color: #2b77be;
-    font-size: 30px;
+    font-size: 55px;
   }
 
   .banner-text hr {
