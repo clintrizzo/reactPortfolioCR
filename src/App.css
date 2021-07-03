@@ -192,6 +192,13 @@
 
 .hTag{
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+.hTags{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
 }
 
 .resumeName{
@@ -222,6 +229,38 @@
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+.schoolDate{
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.schoolName{
+  font-size: 23px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.schoolInfo{
+  font-size: 18px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.startTime{
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.jobName{
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.jobDescription{
+  font-size: 18px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
 .me{
   width: 300px;
   height: 350px;
@@ -247,7 +286,7 @@
 
   .languages{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 20px;
   }
 
