@@ -41,6 +41,7 @@ class Landing extends Component {
                     <div className='hiddenText4'>Resume</div>
                   </a>
                 </div>
+                <br></br>
             </div>
         </Grid>
         <Footer />
