@@ -21,7 +21,7 @@ class Landing extends Component {
                     <div className='hiddenText0'>Github</div>
                   </a>
                   {/* Youtube */}
-                  <a href="https://www.youtube.com/channel/UCpARYFoliOIr-UGpIT-4ibQ" rel="noopener noreferrer" target="_blank">
+                  <a href="https://www.youtube.com/channel/UCpARYFoliOIr-UGpIT-4ibQ/videos" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-youtube-square" aria-hidden="true" />
                     <div className='hiddenText1'>Youtube</div>
                   </a>
