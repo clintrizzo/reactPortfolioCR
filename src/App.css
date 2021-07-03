@@ -44,11 +44,12 @@
 }
 
 .banner-text h5{
-  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 20px;
   font-size: 18px;
   color:white;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  word-spacing: 3px;
+  font-family:'Courier New', Courier, monospace;
 }
 
 
@@ -67,8 +68,8 @@
 
 .social-links i {
   color: white;
-  font-size: 35px;
-  padding:13.5px;
+  font-size: 30px;
+  padding:11px;
 }
 
 .social-links i:hover{
