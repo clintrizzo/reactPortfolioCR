@@ -45,7 +45,7 @@ class Resume extends Component {
             <Education
                  startYear={2020}
                  endYear={2021}
-                 schoolName="Trilogy @ University of California Irvince"
+                 schoolName="Trilogy @ University of California Irvine"
                  schoolDescription="This was a six month boot camp where I learned MERN Full Stack Web Development. Languages learned HTML/CSS, NodeJS, Express, MySQL, MongoDB, React"
             />
 
