@@ -47,9 +47,9 @@ class Landing extends Component {
             </div>
             <div className="resumeBack">     
               <Grid>
-                <Cell className='resume-left-col' col={4}>
+                <Cell className='resume-left-col' col={4} style={{borderRadius:"50px"}}>
                   <img src="./images/me.jpg" alt="clintRizzo" className='me'></img>
-                  <h3 className='hTags' style={{color: 'black', fontSize: '26px'}}>Full Stack Web Developer</h3>
+                  <h3 className='hTags' style={{color: 'white', fontSize: '26px'}}>Full Stack Web Developer</h3>
                   <center>
                   <hr style={{borderTop: '3px solid #e22947',  width: '85%'}}/>
                   </center>
