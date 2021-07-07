@@ -10,12 +10,12 @@
   background: #073ff7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: cover;
   text-align: center;
   position:absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   height: 100%;
 }
 
@@ -189,7 +189,11 @@
 
 /* Resume Page css */
 .resumeBack{
-  background-color: #f2f2f2;
+  background: #073ff7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  margin-right: -30px;
 }
 
 .hTag{
@@ -210,8 +214,13 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.resume-left-col{
+  
+}
+
 .resume-right-col {
-  background: #888888;
+  background-color: black;
+  opacity: .8;
   color: white;
   padding: 2em;
 }
