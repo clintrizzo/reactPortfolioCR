@@ -17,7 +17,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-  height: 100%;
 }
 
 .nav{
@@ -30,6 +29,8 @@
   width: 75%;
   margin: auto;
   border-radius: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .banner-text h1{
@@ -143,7 +144,7 @@
     opacity: .8;
     width: 60%;
     border-radius: 55px;
-    margin-top: 40px;
+    margin-top: 1px;
   }
 
   .banner-text h1{
@@ -194,15 +195,16 @@
   background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 100%;
-  margin-left: -8px;
+  margin-top: 570px;
+  margin-left: -10px;
 }
 
-.hTag{
+.resumeInfo{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 30px;
+  font-size: 45px;
 }
 
-.hTags{
+.position{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px;
   text-align: center;
@@ -263,6 +265,7 @@
 .startTime{
   font-size: 20px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: left;
 }
 
 .jobName{
@@ -279,7 +282,6 @@
 .me{
   width: 300px;
   height: 350px;
-  padding-left: 20px;
   border-radius: 100px;
 }
 
@@ -290,33 +292,23 @@
   padding-left: 16px;
 }
 
-
-/*RESUME for desktop design*/
-@media screen and (min-width: 812px){
-  .me{
-  width: 500px;
-  height: 550px;
-  border-radius: 50px;
-  }
-
-  .languages{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    padding-bottom: 20px;
-  }
-
-}
-
-
-/*for desktop design*/
+/*for laptop design*/
 @media screen and (min-width: 1000px){
+  .resumeBack{
+    margin-top: 430px;
+    margin-left: -10px;
+  }
   .me{
     width: 350px;
     height: 550px;
     border-radius: 50px;
     }
+    .languages{
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px;
+      padding-bottom: 20px;
   }
-
+}
 
 /*project page*/
 
