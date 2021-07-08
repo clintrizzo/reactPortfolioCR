@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './footer/footer'
 import { Grid } from 'react-mdl';
-import Resume from './resume.js'
 
 
 class Landing extends Component {
@@ -12,7 +11,11 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Clinton Rizzo</h1>
               <hr style={{width:'60%', color:'red'}}></hr>
-              <h3 className='title'>Full Stack Web Developer</h3>
+              <center>
+              <h3 className='fullStack'>Full Stack Web Developer</h3>
+              <p className='landingStory' style={{color:'white'}}>Web Developer with a background in Customer Service. Recognized as proactive, resourceful, and persistent problem-solver. Excellent communicator with effective client relationship building skills. Earned a Certificate in Full-Stack Web Development from the University of CA-Irvine with the goal of becoming a skilled Web Developer. 
+              </p>
+              </center>
               <h5 className='title'>HTML/CSS | Bootstrap | JavaScript | MySQL | NodeJS | Express | MongoDB | React</h5>
               <hr/>
               <br></br>
@@ -45,8 +48,9 @@ class Landing extends Component {
                 </div>
             </div>
         </Grid>
-        <Resume>
-        </Resume>
+        <br></br>
+        <br></br>
+        <br></br>
         <Footer />
       </div>
     )
