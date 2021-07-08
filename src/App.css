@@ -168,19 +168,20 @@
     font-family:'Courier New', Courier, monospace;
   }
 
-  .banner-text h5{
-    padding-bottom: 25px;
-    font-size: 22px;
-    font-family:'Courier New', Courier, monospace;
-  }
-
   .landingStory{
     padding-top: 1px;
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 22px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
+
+  .banner-text h5{
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+  }
+
   .social-links{
     display: flex;
     justify-content: space-between;
