@@ -10,7 +10,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
             <div className="banner-text">
               <h1>Clinton Rizzo</h1>
-              <hr style={{width:'60%', color:'red'}}></hr>
+              <hr style={{width:'75%', color:'red'}}></hr>
               <center>
               <h3 className='fullStack'>Full Stack Web Developer</h3>
               <p className='landingStory' style={{color:'white'}}>Web Developer with a background in Customer Service. Recognized as proactive, resourceful, and persistent problem-solver. Excellent communicator with effective client relationship building skills. Earned a Certificate in Full-Stack Web Development from the University of CA-Irvine with the goal of becoming a skilled Web Developer. 
