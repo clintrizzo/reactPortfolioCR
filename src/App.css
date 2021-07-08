@@ -34,16 +34,18 @@
 
 .banner-text h1{
   font-size: 30px;
+  margin-bottom: 0;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .fullStack{
-  font-size: 23px;
-  margin-bottom: 7px;
-  margin-top: 7px;
+  font-size: 19px;
+  word-spacing: 1px;
+  margin-bottom: 5px;
+  margin-top: 5px;
   color:white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:'Courier New', Courier, monospace;
 }
 
 .banner-text h5{
@@ -54,10 +56,12 @@
   font-family:'Courier New', Courier, monospace;
 }
 
-.landingStory p{
-  padding-top: 20px;
+.landingStory {
+  padding-top: 5px;
   padding-left: 5px;
   padding-right: 5px;
+  font-size: 10;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -204,9 +208,7 @@
 
 /* Resume Page css */
 #resumeBack{
-  background: #073ff7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: whitesmoke;
   width: 100%;
 }
 
@@ -229,14 +231,14 @@
 }
 
 .resume-left-col{
-  background-color: white;
+  background-color: #e0dede;
   opacity: .8;
   color: black;
   padding: 2em;
 }
 
 .resume-right-col {
-  background-color: white;
+  background-color: #e0dede;
   opacity: .8;
   color: black;
   padding: 2em;
@@ -244,17 +246,17 @@
 
 .developerStory{
   font-size: 18px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family:'Courier New', Courier, monospace;
 }
 
 .info{
   font-size: 25px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .answer{
   font-size: 20px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family:'Courier New', Courier, monospace;
 }
 
 .schoolDate{
@@ -270,7 +272,7 @@
 
 .schoolInfo{
   font-size: 18px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family:'Courier New', Courier, monospace;
 }
 
 .startTime{
@@ -286,7 +288,7 @@
 
 .jobDescription{
   font-size: 18px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family:'Courier New', Courier, monospace;
 }
 
 
@@ -296,13 +298,6 @@
   border-radius: 100px;
 }
 
-.languages{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 15px;
-  padding-bottom: 20px;
-  padding-left: 16px;
-}
-
 /*for laptop design*/
 @media screen and (min-width: 1000px){
   .me{
@@ -310,11 +305,6 @@
     height: 550px;
     border-radius: 50px;
     }
-    .languages{
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-size: 20px;
-      padding-bottom: 20px;
-  }
 }
 
 /*project page*/
@@ -328,6 +318,12 @@
   margin-top: 10px;
   padding-top: 10px;
   width: 400px
+}
+
+.description{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 
