@@ -9,11 +9,11 @@ class Resume extends Component {
     return(
       <div id="resumeBack">     
       <Grid>
-        <Cell className='resume-left-col' col={4} style={{borderRadius:"50px"}}>
+        <Cell className='resume-left-col' col={4} style={{borderRadius:"85px"}}>
           <center>
           <img src="./images/me.jpg" alt="clintRizzo" className='me'></img>
           </center>
-          <h3 className='position' style={{color: 'white', fontSize: '26px'}}>Full Stack Web Developer</h3>
+          <h3 className='position' style={{color: 'black', fontSize: '30px'}}>Full Stack Web Developer</h3>
           <center>
           <hr style={{borderTop: '3px solid #e22947',  width: '85%'}}/>
           </center>
@@ -30,7 +30,7 @@ class Resume extends Component {
           <h5 className='info'>Email:</h5>
           <p className='answer'>clint.rizzo92@gmail.com</p>
         </Cell>
-        <Cell className="resume-right-col" col={8} style={{borderRadius:"50px"}}>
+        <Cell className="resume-right-col" col={8} style={{borderRadius:"85px"}}>
           <h2 className='resumeInfo'>Education:</h2>
           <Education
             startYear={2007}
