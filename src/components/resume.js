@@ -7,8 +7,8 @@ import Footer from './footer/footer'
 class Resume extends Component {
   render() {
     return(
-      <div className="resumeBack">     
-      <Grid className="resumeBack">
+      <div id="resumeBack">     
+      <Grid>
         <Cell className='resume-left-col' col={4} style={{borderRadius:"50px"}}>
           <center>
           <img src="./images/me.jpg" alt="clintRizzo" className='me'></img>
