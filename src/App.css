@@ -29,19 +29,19 @@
   width: 75%;
   margin: auto;
   border-radius: 20px;
-  padding-top: 25px;
   padding-bottom: 25px;
 }
 
 .banner-text h1{
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.banner-text h3{
-  padding-bottom: 3px;
-  font-size: 30px;
+.fullStack{
+  font-size: 23px;
+  margin-bottom: 7px;
+  margin-top: 7px;
   color:white;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -49,10 +49,15 @@
 .banner-text h5{
   padding-left: 3px;
   padding-right: 3px;
-  padding-bottom: 20px;
-  font-size: 18px;
+  font-size: 15px;
   color:white;
   font-family:'Courier New', Courier, monospace;
+}
+
+.landingStory p{
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 
@@ -66,13 +71,12 @@
   display: flex;
   width: 90%;
   margin: auto;
-  padding-bottom: -38px;
 }
 
 .social-links i {
   color: white;
   font-size: 30px;
-  padding:13px;
+  padding-right:32px;
 }
 
 .social-links i:hover{
@@ -152,22 +156,31 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  .banner-text h3{
-    padding-bottom: 5px;
+  .fullStack{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .banner-text h5{
-    padding-bottom: 5px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    padding-bottom: 25px;
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace;
   }
 
+  .landingStory{
+    padding-top: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
   .social-links{
     display: flex;
     justify-content: space-between;
     width: 50%;
     margin: auto;
-    padding-bottom: 20px;
   }
 
   .social-links i {
@@ -195,8 +208,6 @@
   background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 100%;
-  margin-top: 570px;
-  margin-left: -10px;
 }
 
 .resumeInfo{
@@ -218,16 +229,16 @@
 }
 
 .resume-left-col{
-  background-color: black;
+  background-color: white;
   opacity: .8;
-  color: white;
+  color: black;
   padding: 2em;
 }
 
 .resume-right-col {
-  background-color: black;
+  background-color: white;
   opacity: .8;
-  color: white;
+  color: black;
   padding: 2em;
 }
 
@@ -294,12 +305,8 @@
 
 /*for laptop design*/
 @media screen and (min-width: 1000px){
-  #resumeBack{
-    margin-top: 430px;
-    margin-left: -10px;
-  }
   .me{
-    width: 350px;
+    width: 340px;
     height: 550px;
     border-radius: 50px;
     }
@@ -387,7 +394,9 @@ input, textarea{
 
 .button{
   width:30%;
-  background-color: #45d7fc;
+  background: #073ff7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -396,6 +405,10 @@ input, textarea{
   cursor: pointer;
   font-size: 20px;
   margin-left: 20px
+}
+
+.button:hover{
+  opacity: .8;
 }
 
 .button:hover{
