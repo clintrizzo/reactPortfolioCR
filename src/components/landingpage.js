@@ -31,7 +31,7 @@ class Landing extends Component {
                     <div className='hiddenText1'>Youtube</div>
                   </a>
                   {/* LinkedIn */}
-                  <a href="https://www.linkedin.com/in/clinton-rizzo-79b67b1b6/" rel="noopener noreferrer" target="_blank">
+                  <a href="https://www.linkedin.com/in/clinton-rizzo/" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                     <div className='hiddenText2'>Linkedin</div>
                   </a>
