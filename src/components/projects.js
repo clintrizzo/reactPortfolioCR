@@ -184,7 +184,8 @@ class Projects extends Component {
             <CardTitle style={{color: '#fff', height: '180px', background: 'url(./images/react/login.jpg) center / cover'}} ></CardTitle>
             <CardText>
             <h6><strong>ChatBox</strong></h6>
-            A complete frontend project where the user can create a chat area with his or her friends. I used this project to practice bringing in React hooks and using reasting API's. The user information is saved through local storage at the moment. However inside the chat the admininstrator for that particular chat box can create the conversations and organize the users to whichever chat area they would like.
+            <hr style={{width:'100%'}}></hr>
+            <p className='description'>A complete frontend project where the user can create a chat area with his or her friends. I used this project to practice bringing in React hooks and using reasting API's. The user information is saved through local storage at the moment. However inside the chat the admininstrator for that particular chat box can create the conversations and organize the users to whichever chat area they would like.</p>
             </CardText>
             <CardActions border>
               <center>
