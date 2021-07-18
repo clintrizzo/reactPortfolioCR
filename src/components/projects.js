@@ -181,16 +181,15 @@ class Projects extends Component {
           <br></br>
           {/* Project 3 */}
           <Card shadow={10} style={{minWidth: '450', marginRight:'75px'}}>
-            <CardTitle style={{color: '#fff', height: '180px', background: 'url(./images/react/joyHunter.jpg) center / cover'}} ></CardTitle>
+            <CardTitle style={{color: '#fff', height: '180px', background: 'url(./images/react/login.jpg) center / cover'}} ></CardTitle>
             <CardText>
-            <h6><strong>Joy Hunter</strong></h6>
-            <hr style={{width:'100%'}}></hr>
-            <p className='description'>Using react and mySQL we created this website to help the user find different paintball and airsoft games. For this project I did the frontend work for the pages.</p>
+            <h6><strong>ChatBox</strong></h6>
+            A complete frontend project where the user can create a chat area with his or her friends. I used this project to practice bringing in React hooks and using reasting API's. The user information is saved through local storage at the moment. However inside the chat the admininstrator for that particular chat box can create the conversations and organize the users to whichever chat area they would like.
             </CardText>
             <CardActions border>
               <center>
-              <Button colored><a href="https://github.com/clintrizzo/joyhunter" rel="noopener noreferrer" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
-              <Button colored><a href="https://joyhunter2.herokuapp.com/" rel="noopener noreferrer" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
+              <Button colored><a href="https://github.com/clintrizzo/frontend-chat-repo" rel="noopener noreferrer" target="_blank" style={{color:"black"}}>GITHUB</a></Button>
+              <Button colored><a href="https://chat-box-4rcklawlr-clintrizzo.vercel.app/" rel="noopener noreferrer" target="_blank" style={{color:"black"}}>LIVE DEMO</a></Button>
               </center>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
