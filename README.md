@@ -2,7 +2,7 @@
     
 #Table of Contents
     
-- [React Portfolio](#react-portfolio)
+  - [React Portfolio](#react-portfolio)
   - [Description:](#description)
   - [Installation:](#installation)
   - [Packages:](#packages)
