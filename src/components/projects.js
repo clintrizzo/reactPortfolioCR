@@ -185,7 +185,8 @@ class Projects extends Component {
             <CardText>
             <h6><strong>ChatBox</strong></h6>
             <hr style={{width:'100%'}}></hr>
-            <p className='description'>A complete frontend project where the user can create a chat area with his or her friends. I used this project to practice bringing in React hooks and using reasting API's. The user information is saved through local storage at the moment. However inside the chat the admininstrator for that particular chat box can create the conversations and organize the users to whichever chat area they would like.</p>
+            <p className='description'>A complete frontend project where the user can create a chat area with his or her friends. I used this project to practice bringing in React hooks and using reasting API's. The user information is saved through local storage at the moment. However inside the chat the admininstrator for that particular chat box can create the conversations and organize the users to whichever chat area they would like. 
+            At the moment please use 'clint123' for username and 'cpr1234' to log in. Future Development is to implement firebase to allow the user to login using facebook or google email</p>
             </CardText>
             <CardActions border>
               <center>
