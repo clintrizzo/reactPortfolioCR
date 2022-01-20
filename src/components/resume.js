@@ -52,7 +52,7 @@ class Resume extends Component {
             startYear={2021}
             endYear={"Present"}
             jobName="ServerFarm - InCommand (QA Tester)"
-            jobDescription="Currently work for ServerFarm - InCommand as a QA Tester. I am currently working to update current test plans with cypress as well as creating new test plans. With the goal of automating testing."
+            jobDescription="Currently work for ServerFarm - InCommand as a QA Tester. I am currently working to update current test plans with cypress as well as creating new test plans. My other duties are to validate and test feature functionality for bug tickets and improvements to the applications. Finally the end goal the team expects from me is to automate all tests."
           />
           <center>
           <hr style={{borderTop: '2px solid #e22947', width: '85%'}}/>
@@ -60,14 +60,8 @@ class Resume extends Component {
           <Experience
             startYear={2019}
             endYear={2021}
-            jobName="Hajoca Corona (Warehouse Associate)"
-            jobDescription="Currently work for Hajoca plumbing in the warehouse as a warehouse associate. My main duties are to help both
-            receiving and shipping departments. The receiving deparment consists of maintaining material that is coming in and making sure the
-            correct material has been received. Shipping duties is to complete orders that have been ordered and complete those orders 
-            accurately. While working at Corona Hajoca I have trained six new employees. Five of those employees have been for the shipping
-            position and one of the employees was moved from shipping to receiving. The training for these policies consisted of having them learn 
-            the safety policies of the warehouse, testing them on heavy machinery, and conducting heavy machinery written exams. The main
-            goal for these employees to succeed was to give them as much knowledge as possible to allow them to succeeed."
+            jobName="Corona Hajoca (Warehouse Associate)"
+            jobDescription="While working for Corona Hajoca plumbing company I had multiple roles. I first started as a shipping warehouse associate where I would pull orders and load trucks for the next day deliveries. My second job was as a receiving associate. During this role I received in plumbing material. Main duties for this position was to check material coming in to make sure it matched the PO. I also had to maintain my paperwork to allow purchasing to check if need be. My third job was as a warehouse associate. In this position I split my time between receiving and shipping. During this time I trained multiple individuals for both departments. I also created a PDF file on how to use eclipse for new users. My final position was shipping supervisor. My main duties was to route six trucks while making sure material was being loaded on the correct trucks. I was also responsible for quarterly evals of my team. "
           />
           <center>
           <hr style={{borderTop: '2px solid #e22947', width: '85%'}}/>
