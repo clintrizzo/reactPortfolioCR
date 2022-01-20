@@ -49,8 +49,17 @@ class Resume extends Component {
 
           <h2 className='resumeInfo'>Experience:</h2>
           <Experience
-            startYear={2019}
+            startYear={2021}
             endYear={"Present"}
+            jobName="ServerFarm - InCommand (QA Tester)"
+            jobDescription="Currently work for ServerFarm - InCommand as a QA Tester. I am currently working to update current test plans with cypress as well as creating new test plans. With the goal of automating testing."
+          />
+          <center>
+          <hr style={{borderTop: '2px solid #e22947', width: '85%'}}/>
+          </center>
+          <Experience
+            startYear={2019}
+            endYear={2021}
             jobName="Hajoca Corona (Warehouse Associate)"
             jobDescription="Currently work for Hajoca plumbing in the warehouse as a warehouse associate. My main duties are to help both
             receiving and shipping departments. The receiving deparment consists of maintaining material that is coming in and making sure the
