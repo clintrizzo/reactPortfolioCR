@@ -52,7 +52,7 @@ class Resume extends Component {
             startYear={2021}
             endYear={"Present"}
             jobName="ServerFarm - InCommand (QA Tester)"
-            jobDescription="Currently work for ServerFarm - InCommand as a QA Tester. I am currently working to update current test plans with cypress as well as creating new test plans. My other duties are to validate and test feature functionality for bug tickets and improvements to the applications. Finally the end goal the team expects from me is to automate all tests."
+            jobDescription="Currently work for ServerFarm - InCommand as a QA Tester. I am currently working to update current test plans with cypress as well as creating new test plans. My other duties are to validate and test feature functionality for bug tickets and improvements to the applications. "
           />
           <center>
           <hr style={{borderTop: '2px solid #e22947', width: '85%'}}/>
