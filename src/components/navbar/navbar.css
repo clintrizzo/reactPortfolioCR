@@ -1,12 +1,26 @@
-.nav {
-  display: flex;
-  align-items: center;
-  top: -5px;
-  z-index: 2;
-  height: 70px;
-  min-height: 70px;
-  width: calc(100% - 1.5rem);
-  background-color: #fff;
-  padding: 0 1rem;
-  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li{
+  cursor: pointer;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  list-style-type: none;
+}
+
+nav li:hover {
+  display: block;
+  color: white;
+  text-decoration:underline;
+  font-size: 20px;
 }

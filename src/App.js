@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-
-import '../src/components/navbar/navbar.css';
 import './App.css'
+import '../src/components/navbar/navbar.css';
 import {Link} from 'react-scroll'
 import Landing from './components/landingpage';
 import Resume from './components/resume';
 import Projects from './components/projects';
+import Contact from './components/contact';
+
 
 // import { Link } from 'react-router-dom';
 class App extends Component {
@@ -16,10 +17,11 @@ class App extends Component {
           <nav>
 
           <ul style={{display: 'flex', listStyle: 'none', justifyContent: 'space-around'}}>
-          <a><Link activeclass="active" to="about" spy={true} smooth={true}>Home</Link></a>
-          <a><Link  to="resume" spy={true} smooth={true}>About</Link></a>
-          <a><Link  to="projects" spy={true} smooth={true}>Contact</Link></a>
-          <a><Link  to="contactMe" spy={true} smooth={true}>Service</Link></a>
+          <li><Link activeClass="active" to="about" spy={true} smooth={true} style={{color: 'white'}}>Clint Rizzo</Link></li>
+          <li><Link  to="resume" spy={true} smooth={true}>Resume</Link></li>
+          <li><Link  to="projects" spy={true} smooth={true}>Projects</Link></li>
+          <li><Link  to="contactMe" spy={true} smooth={true}>Contact Me</Link></li>
+
           </ul>
 
           </nav>
@@ -27,7 +29,8 @@ class App extends Component {
         <div id="about"><Landing></Landing></div>
         <div id="resume"><Resume></Resume></div>
         <div id="projects"><Projects></Projects></div>
-        <div id="contactMe">Test1</div>
+        <div id="contactMe"><Contact></Contact></div>
+
       </div>
     );
   }
