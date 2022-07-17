@@ -1,36 +1,34 @@
 import React, { Component } from 'react';
-import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import Main from './components/main';
-import { Link } from 'react-router-dom';
 
+import '../src/components/navbar/navbar.css';
+import './App.css'
+import {Link} from 'react-scroll'
+import Landing from './components/landingpage';
+import Resume from './components/resume';
+import Projects from './components/projects';
 
+// import { Link } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <div className="demo-big-content">
-    <Layout>
-        <Header style={{color:'white'}} className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Clinton Rizzo</Link>} scroll>
-            <Navigation>
-              <Link to="#resumeBack">Resume</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Header>
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Clinton Rizzo</Link>}>
-            <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Drawer>
-        <Content>
-            <div className="/page-content" />
-            <Main/>
-        </Content>
-    </Layout>
-</div>
+      <div>
+        <header>
+          <nav>
 
+          <ul style={{display: 'flex', listStyle: 'none', justifyContent: 'space-around'}}>
+          <a><Link activeclass="active" to="about" spy={true} smooth={true}>Home</Link></a>
+          <a><Link  to="resume" spy={true} smooth={true}>About</Link></a>
+          <a><Link  to="projects" spy={true} smooth={true}>Contact</Link></a>
+          <a><Link  to="contactMe" spy={true} smooth={true}>Service</Link></a>
+          </ul>
+
+          </nav>
+        </header>
+        <div id="about"><Landing></Landing></div>
+        <div id="resume"><Resume></Resume></div>
+        <div id="projects"><Projects></Projects></div>
+        <div id="contactMe">Test1</div>
+      </div>
     );
   }
 }
