@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './footer/footer'
-import Resume from './resume';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Grid } from 'react-mdl';
 
 class Landing extends Component {
   render() {
@@ -48,7 +47,6 @@ class Landing extends Component {
                 </div>
             </div>
         </Grid>
-        <Resume></Resume>
         <br></br>
         <Footer />
       </div>
