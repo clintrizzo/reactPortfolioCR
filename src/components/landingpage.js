@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import Footer from './footer/footer'
 import { Grid } from 'react-mdl';
 
 class Landing extends Component {
   render() {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
-        <Grid className="landing-grid">
+        <Grid className="landing-grid" style={{paddingTop: '150px'}}>
             <div className="banner-text">
               <h1>Clinton Rizzo</h1>
               <hr style={{width:'75%', color:'red'}}></hr>
@@ -47,8 +46,6 @@ class Landing extends Component {
                 </div>
             </div>
         </Grid>
-        <br></br>
-        <Footer />
       </div>
     )
   }

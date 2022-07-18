@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-import Footer from './footer/footer'
 
 class Resume extends Component {
   render() {
     return(
       <div id="resumeBack">     
-      <Grid>
+      <Grid style={{paddingTop: '100px', paddingBottom: '50px'}}>
         <Cell className='resume-left-col' col={4} style={{borderRadius:"85px"}}>
           <center>
           <img src="./images/me.jpg" alt="clintRizzo" className='me'></img>
@@ -79,9 +78,6 @@ class Resume extends Component {
           <hr style={{borderTop: '3px solid #e22947'}} />
         </Cell>
       </Grid>
-        <br></br>
-        <br></br>
-        <Footer />
       </div>
     )
   }
