@@ -1,4 +1,4 @@
-# React Portfolio ## :hammer: Currently Under Construction :hammer:
+# React Portfolio :hammer: Currently Under Construction :hammer:
     
 #Table of Contents
     
