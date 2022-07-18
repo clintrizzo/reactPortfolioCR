@@ -1,4 +1,4 @@
-# React Portfolio
+# React Portfolio ## :hammer: Currently Under Construction :hammer:
     
 #Table of Contents
     
@@ -26,6 +26,7 @@ npx create-react-app "my-app"
 3. react-bootstrap (npm install react-bootstrap bootstrap@4.6.0)
 4. react-router-dom (npm install --save react-router-dom)
 5. emailjs-com (npm install emailjs-com --save)
+6. react-scroll (npm install react-scroll)
 
 # deployed Site:
 [Portfolio](https://clintrizzoportfolio.herokuapp.com/)
