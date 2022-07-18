@@ -27,8 +27,9 @@
   width: 75%;
   margin: auto;
   border-radius: 20px;
+  border-top: 200px;
   padding-bottom: 25px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .banner-text h1{
@@ -315,6 +316,13 @@
 /*project page*/
 
 /*mobile device*/
+.menuItems{
+  background: #073ff7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: cover;
+}
+
 .projects-grid{
   display: flex;
   flex: 5;

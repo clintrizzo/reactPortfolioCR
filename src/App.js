@@ -6,7 +6,7 @@ import Landing from './components/landingpage';
 import Resume from './components/resume';
 import Projects from './components/projects';
 import Contact from './components/contact';
-
+import Footer from '../src/components/footer/footer'
 
 // import { Link } from 'react-router-dom';
 class App extends Component {
@@ -30,7 +30,7 @@ class App extends Component {
         <div id="resume"><Resume></Resume></div>
         <div id="projects"><Projects></Projects></div>
         <div id="contactMe"><Contact></Contact></div>
-
+        <Footer />
       </div>
     );
   }

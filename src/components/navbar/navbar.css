@@ -24,3 +24,11 @@ nav li:hover {
   text-decoration:underline;
   font-size: 20px;
 }
+
+#about + #resume + #projects + #contactMe {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-size: 32px;
+  font-weight: bold;
+}
