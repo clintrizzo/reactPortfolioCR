@@ -4,7 +4,7 @@ import '../src/components/navbar/navbar.css';
 import {Link} from 'react-scroll'
 import Landing from './components/landingpage';
 import Resume from './components/resume';
-import Projects from './components/projects';
+import Projects from './components/project-carousel';
 import Contact from './components/contact';
 import Footer from '../src/components/footer/footer'
 
