@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^4.6.1",
     "emailjs-com": "^2.6.4",
+    "pure-react-carousel": "^1.28.1",
     "react": "^16.2.0",
     "react-bootstrap": "^1.6.5",
     "react-dom": "^16.2.0",

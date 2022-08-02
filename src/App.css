@@ -324,20 +324,31 @@
 }
 
 .projects-grid{
-  display: flex;
-  flex: 5;
-  flex-direction: column;
   justify-content: center;
   margin-top: 10px;
   padding-top: 10px;
-  width: 400px
+  width: 350px
+}
+
+.projects{
+  background-color: black;
+}
+
+#text{
+  padding: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12.5px;
 }
 
 .description{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
-  font-weight: bold;
+  margin-left:10px;
+  margin-right: 10px;
+  background-color: white;
+  height: 250px;
+  border-radius: 10px;
 }
+
+
 
 
 /*dont change section responsive for desktop to phone*/
@@ -433,4 +444,9 @@ input, textarea{
   input, textarea{
     width:98%
   }
+}
+
+.codingProjects{
+  margin-bottom: 130px;
+  margin-top: 10px
 }
