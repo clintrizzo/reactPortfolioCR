@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css'
-import '../src/components/navbar/navbar.css';
+import './components/navbar/navbar.css';
 import {Link} from 'react-scroll'
 import Landing from './components/landingPage/landingpage';
 import Resume from './components/resumePage/resume';
 import Projects from './components/projectsPage/project-carousel';
 // import Contact from './components/contact';
-import Footer from '../src/components/footer/footer'
+import Footer from './components/footer/footer'
 
 // import { Link } from 'react-router-dom';
 class App extends Component {
