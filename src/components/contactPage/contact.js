@@ -1,7 +1,7 @@
 import React from "react";
 import emailjs from 'emailjs-com';
 import '../App.css';
-import Footer from './footer/footer'
+import Footer from '../footer/footer'
 
 function Contact() {
     const sendEmail = (e) => {
