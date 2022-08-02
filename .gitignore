@@ -22,5 +22,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#test to run all tests
-npx cypress run --record --key a8e1c19c-42b5-47bf-876f-7a89df1fc4fe
