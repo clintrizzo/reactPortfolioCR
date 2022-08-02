@@ -1,8 +1,7 @@
 /// <reference types="Cypress" />
 
-describe('Resume Page', () => {
+xdescribe('Resume Page', () => {
   before(() => {
     cy.visit('http://localhost:3030/');
   });
-  it()
 });
