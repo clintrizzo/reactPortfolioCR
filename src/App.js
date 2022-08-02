@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css'
-import './components/navbar/navbar.css';
+import './components/navbar/navbar.css'
 import {Link} from 'react-scroll'
 import Landing from './components/landingPage/landingpage';
 import Resume from './components/resumePage/resume';
