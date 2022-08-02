@@ -23,8 +23,7 @@ class Projects extends Component {
 
           <Card.Title style={{color: '#fff', height: '180px', marginRight:"15px", marginLeft: '15px', background: 'url(./images/javascript/calendar.jpg) center / cover'}}></Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            test
           </Card.Text>
         </Card.Body>
         <Card.Footer>
