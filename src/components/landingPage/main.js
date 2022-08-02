@@ -1,3 +1,7 @@
+//! Connection made through App.js now. This page is not being utilized
+//! Might bring back page for later projects
+
+
 // import React from 'react';
 // import { Switch, Route } from 'react-router-dom';
 
