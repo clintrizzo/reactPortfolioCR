@@ -4,7 +4,7 @@ import '../src/components/navbar/navbar.css';
 import {Link} from 'react-scroll'
 import Landing from './components/landingpage';
 import Resume from './components/resume';
-import Projects from './components/project-carousel';
+import Projects from './components/codingProjects/project-carousel';
 // import Contact from './components/contact';
 import Footer from '../src/components/footer/footer'
 
@@ -17,9 +17,9 @@ class App extends Component {
           <nav>
 
           <ul style={{display: 'flex', listStyle: 'none', justifyContent: 'space-around'}}>
-          <li><Link activeClass="active" to="about" spy={true} smooth={true} style={{color: 'white'}}>Clint Rizzo</Link></li>
-          <li><Link  to="resume" spy={true} smooth={true}>Resume</Link></li>
-          <li><Link  to="projects" spy={true} smooth={true}>Projects</Link></li>
+          <li><Link  to="about"  smooth={true} style={{color: 'white'}}>Clint Rizzo</Link></li>
+          <li><Link  to="resume"  smooth={true}>Resume</Link></li>
+          <li><Link  to="projects"  smooth={true}>Projects</Link></li>
           {/* <li><Link  to="contactMe" spy={true} smooth={true}>Contact Me</Link></li> */}
 
           </ul>
