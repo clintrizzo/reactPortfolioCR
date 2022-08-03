@@ -14,7 +14,7 @@ class Landing extends Component {
               <p className='landingStory' style={{color:'white'}}>Web Developer with a background in Customer Service. Recognized as proactive, resourceful, and persistent problem-solver. Excellent communicator with effective client relationship building skills. Earned a Certificate in Full-Stack Web Development from the University of CA-Irvine with the goal of becoming a skilled Web Developer. 
               </p>
               </center>
-              <h5 className='title'>HTML/CSS | Bootstrap | JavaScript | MySQL | NodeJS | Express | MongoDB | React</h5>
+              <h5 className='codingLanguages'>HTML/CSS | Bootstrap | JavaScript | MySQL | NodeJS | Express | MongoDB | React</h5>
               <hr/>
               <br></br>
                 <div className="social-links">
