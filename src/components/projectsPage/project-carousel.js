@@ -1,63 +1,56 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import BusyParent from './projectDetails/busyParent';
+import BrickBreaker from './projectDetails/brickBreacker';
+import WeatherDashboard from './projectDetails/weatherDashboard';
 
 class Projects extends Component {
   constructor(props) {
     super(props);
     this.state = { activeTab: 0 };
-
   }
 
   toggleCategories() {
-
     if(this.state.activeTab === 0){
       return(
         <div className='codingProjects'>
-    <CardGroup >
-      <Card style={{marginRight: '15px'}}>
-        <Card.Body>
-        <Card.Title >Busy Parent Scheduler</Card.Title>
+          <CardGroup>
+            {/* {Project: 1} */}
+            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+                <center>
+              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title'>Calendar Planner</h3></Card.Title>
+                </center>
+              <hr style={{width:'100%', backgroundColor:'red'}}></hr>
+              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"15px", marginLeft: '15px', background: 'url(./images/javascript/calendar.jpg) center / cover'}} className="card-text"></Card.Title>
+              <hr style={{width:'100%', backgroundColor:'red', marginTop: '15px'}}></hr>
+              <BusyParent></BusyParent>
+            </Card>
 
-          <Card.Title style={{color: '#fff', height: '180px', marginRight:"15px", marginLeft: '15px', background: 'url(./images/javascript/calendar.jpg) center / cover'}}></Card.Title>
-          <Card.Text>
-            test
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-      <Card style={{marginRight: '15px'}}>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-      <Card style={{marginRight: '15px'}}>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-    </CardGroup>
+            {/* {Project: 2} */}
+            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+                <center>
+              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title'>Brick Breaker</h3></Card.Title>
+                </center>
+              <hr style={{width:'100%', backgroundColor:'red'}}></hr>
+              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"35px", marginLeft: '35px', background: 'url(./images/javascript/2d.jpg) center / cover'}} className="card-text"></Card.Title>
+              <hr style={{width:'100%', backgroundColor:'red', marginTop: '15px'}}></hr>
+              <BrickBreaker></BrickBreaker>
+            </Card>
+
+            {/* {Project: 3} */}
+            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+                <center>
+              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title'>Weather Dashboard</h3></Card.Title>
+                </center>
+              <hr style={{width:'100%', backgroundColor:'red'}}></hr>
+              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"35px", marginLeft: '35px', background: 'url(./images/javascript/weatherBoard.jpg) center / cover'}} className="card-text"></Card.Title>
+              <hr style={{width:'100%', backgroundColor:'red', marginTop: '15px'}}></hr>
+              <WeatherDashboard></WeatherDashboard>
+            </Card>
+          </CardGroup>
         </div>
       )
     } else if(this.state.activeTab === 1) {
@@ -156,3 +149,7 @@ class Projects extends Component {
 }
 
 export default Projects;
+
+
+
+
