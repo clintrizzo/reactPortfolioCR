@@ -8,9 +8,12 @@
     "pure-react-carousel": "^1.29.0",
     "react": "^16.2.0",
     "react-bootstrap": "^1.6.5",
+    "react-collapsed": "^3.3.2",
     "react-dom": "^16.2.0",
+    "react-light-accordion": "^0.1.4",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^4.2.2",
+    "react-script-tag": "^1.1.2",
     "react-scripts": "1.1.0",
     "react-scroll": "^1.8.7"
   },

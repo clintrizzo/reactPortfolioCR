@@ -327,7 +327,6 @@
   justify-content: center;
   margin-top: 10px;
   padding-top: 10px;
-  width: 350px
 }
 
 .projects{
@@ -343,8 +342,11 @@
 .description{
   margin-left:10px;
   margin-right: 10px;
-  background-color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 30px;
   height: 250px;
+  color: white;
   border-radius: 10px;
 }
 
@@ -355,14 +357,12 @@
 /*PROJECTS for desktop design*/
 @media screen and (min-width: 812px){
   .projects-grid{
-    width:1200px;
     height: 100%;
     flex: 10;
     flex-direction:row;
     justify-content: center;
     display: flex;
     margin-top: 20px;
-    margin-left: 60px;
   }
 }
 
@@ -377,11 +377,83 @@
     margin-top: 20px;
   }
 }
+
+/* Project cards */
+
+.title {
+  text-align: center;
+      font-size:25px; font-weight:250; color:white; letter-spacing:1px;
+      text-transform: uppercase;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  
+  .title:after,.title:before {
+      content: " ";
+      display: block;
+  }
+
+.card-text:hover{
+  transform: scale(1.1);
+  animation: hideMe 5s forwards;
+}
+
+.busyParentScheduler{
+  font-family:'Courier New', Courier, monospace;
+}
+
+.busyParentScheduler:hover{
+  text-decoration: underline;
+}
+
+.description{
+  margin-left:5px;
+  margin-right: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  height: 250px;
+  color: white;
+  font-size: 12.5px;
+  font-family:'Courier New', Courier, monospace;
+  overflow: hidden;
+}
+
+.codingProjects{
+  margin-bottom: 80px;
+  margin-top: 10px;
+}
+
+.collapsible-card {
+  border-radius: 30px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.header {
+  height: 40px;
+  width: 100%;
+  color: white;
+  padding-top: 15px
+}
+.content {
+  transition: height 0.5s ease;
+  padding: 0px 20px;
+  font-size: 25px;
+  font-family:'Courier New', Courier, monospace;
+  overflow: hidden;
+}
+
+
+/*! keep don't delete incase bringing back in contact page
 /*dont change section responsive for desktop to phone*/
 
 
 /* contact page css */
-
+/* 
 .container{
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -414,9 +486,9 @@ input, textarea{
 
 .button{
   width:30%;
-  background: #073ff7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #073ff7; 
+  background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); 
+  background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); 
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -435,7 +507,7 @@ input, textarea{
   background-color: #4da4ddd0;
 }
 
-/*CONTACT PAGE for desktop design*/
+CONTACT PAGE for desktop design
 @media screen and (min-width: 768px){
   .contact-list{
     height: 100%;
@@ -444,9 +516,4 @@ input, textarea{
   input, textarea{
     width:98%
   }
-}
-
-.codingProjects{
-  margin-bottom: 130px;
-  margin-top: 10px
-}
+} */

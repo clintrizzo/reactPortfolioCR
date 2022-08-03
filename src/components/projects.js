@@ -21,6 +21,7 @@ class Projects extends Component {
               <h6><strong>Busy Parent Scheduler</strong></h6>
               <hr style={{width:'100%'}}></hr>
               <p className='description'>We built this app for the intention of parents who have a busy life style that they could schedule their work week, personal life, and childrens schedule all in one place. For families that like to plan in advance the app allows you to select days weeks away and still be able to put in a "to do" item. The user will also have updated weather depending on the location they are at when they open the calendar.</p>
+              <hr style={{width:'100%'}}></hr>
             </CardText>
             <CardActions border>
               <center>
@@ -32,7 +33,6 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          <br></br>
           {/* Project 2 */}
           <Card shadow={10} style={{minWidth: '450', marginRight:'75px'}}>
             <CardTitle style={{color: '#fff', height: '180px', marginTop:"5px", background: 'url(./images/javascript/2d.jpg) center / cover'}} ></CardTitle>
