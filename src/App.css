@@ -394,15 +394,16 @@
       overflow: hidden;    }
 
     .links{
-      height: 37px;
-      width: 165px;
-      margin:5px;
+      height: 35px;
+      width: 145px;
+      margin-top:5px;
       justify-content: center;
       border-radius: 5px;
     }
 
     #linkText{
       font-size: 16px;
+      text-align: center;
     }
 }
 
@@ -493,7 +494,6 @@
   font-family:'Courier New', Courier, monospace;
   overflow: hidden;
 }
-
 
 /*! keep don't delete incase bringing back in contact page
 /*dont change section responsive for desktop to phone*/
