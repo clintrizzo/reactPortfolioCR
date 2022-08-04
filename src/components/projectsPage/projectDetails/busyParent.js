@@ -37,10 +37,10 @@ export default function App() {
         <Card.Footer style={{paddingBottom: '25px'}}>
           <center>
           <Button variant="primary" size="md" active className="links">
-          <a href="https://kjwallac.github.io/BusyParentScheduler/calendar.html" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'>Deployment</a>
+          <a href="https://kjwallac.github.io/BusyParentScheduler/calendar.html" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'><p className="linkText">Deployment</p></a>
           </Button>{' '}
           <Button variant="secondary" size="md" active className="links">
-          <a href="https://github.com/clintrizzo/BusyParentScheduler" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'>GITHUB</a>                
+          <a href="https://github.com/clintrizzo/BusyParentScheduler" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'><p className="linkText">GITHUB</p></a>                
           </Button>    
           </center>    
         </Card.Footer>        

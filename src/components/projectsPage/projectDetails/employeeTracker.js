@@ -32,16 +32,16 @@ export default function App() {
         >
         <Card.Text>
           <br></br>
-          <p className='description' id="projectText">Using the left and right directional pad you can move the bottom paddle to redirect the ball back to hitting the blocks. Goal of the game is to detroy all the paddles at the top to win the game. User has three lives if the ball hits below the bottom paddle the user loses a life. </p>   
+          <p className='description' id="projectText">Application was built so user can update an employee field, an active department, and include salaries. To run this program user needs to go into the terminal and run "node server.js". They will then be able to navigate between options and update roles, employees, departments, ect.</p>   
         </Card.Text>
           <hr style={{width:'100%', backgroundColor:'red'}}></hr>
         <Card.Footer style={{paddingBottom: '25px'}}>
           <center>
           <Button variant="primary" size="md" active className="links">
-          <a href="https://www.youtube.com/watch?v=P7NGOYOvt8Y" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'><p className="linkText">Deployment</p></a>
+          <a href="https://www.youtube.com/watch?v=ahixbcV90wQ" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'><p className="linkText">Deployment</p></a>
           </Button>{' '}
           <Button variant="secondary" size="md" active className="links">
-          <a href="https://github.com/clintrizzo/2D-game" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'><p className="linkText">GITHUB</p></a>                
+          <a href="https://github.com/clintrizzo/employee-tracker-database" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'><p className="linkText">GITHUB</p></a>                
           </Button>    
           </center>    
         </Card.Footer>        

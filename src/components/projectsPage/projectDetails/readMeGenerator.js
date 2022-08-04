@@ -32,16 +32,16 @@ export default function App() {
         >
         <Card.Text>
           <br></br>
-          <p className='description' id="projectText">Using the left and right directional pad you can move the bottom paddle to redirect the ball back to hitting the blocks. Goal of the game is to detroy all the paddles at the top to win the game. User has three lives if the ball hits below the bottom paddle the user loses a life. </p>   
+          <p className='description' id="projectText">Application was built to create a readme file. User can start program by running the terminal with "node server.js" then they will be prompted to answer a few questions. Once questions are answered a readme file will be created.</p>   
         </Card.Text>
           <hr style={{width:'100%', backgroundColor:'red'}}></hr>
         <Card.Footer style={{paddingBottom: '25px'}}>
           <center>
           <Button variant="primary" size="md" active className="links">
-          <a href="https://www.youtube.com/watch?v=P7NGOYOvt8Y" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'><p className="linkText">Deployment</p></a>
+          <a href="https://www.youtube.com/watch?v=7fdDhJHIG8s" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'><p className="linkText">Deployment</p></a>
           </Button>{' '}
           <Button variant="secondary" size="md" active className="links">
-          <a href="https://github.com/clintrizzo/2D-game" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'><p className="linkText">GITHUB</p></a>                
+          <a href="https://github.com/clintrizzo/READme-generator" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'><p className="linkText">GITHUB</p></a>                
           </Button>    
           </center>    
         </Card.Footer>        

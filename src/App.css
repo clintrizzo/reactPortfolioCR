@@ -399,10 +399,31 @@
       color: white;
       font-size: 13.5px;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      overflow: hidden;    }
+      overflow: hidden;    
+    }
+
+    .links{
+      height: 35px;
+      width: 135px;
+      margin-top: 3px
+    }
+
+    .linkText{
+      margin-top: -1px;
+    }
 }
 
-
+@media screen and (min-width: 900px){
+  .links{
+    width: 165px;
+    height: 45px
+  }
+  .linkText{
+    font-size: 20px;
+    margin-top: -1px;
+    margin-bottom: -5px;
+  }
+}
 /* Project cards */
 
 .title {
@@ -470,6 +491,21 @@
 }
 #weather{
   background-image: url("../src/components/projectsPage/projectImages/javascript/weatherBoard.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#employeeTracker{
+  background-image: url("../src/components/projectsPage/projectImages/mySQL/employeeTracker.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#readMe{
+  background-image: url("../src/components/projectsPage/projectImages/mySQL/readMe.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#teamProfile{
+  background-image: url("../src/components/projectsPage/projectImages/mySQL/teamProfile.jpg");
   background-position: center;
   background-size: cover;
 }
