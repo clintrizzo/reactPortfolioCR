@@ -428,6 +428,23 @@
   margin-top: 10px;
 }
 
+/* Title background photos */
+#photoCalendar{
+  background-image: url("../src/components/projectsPage/projectImages/javascript/calendar.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#brickBreaker{
+  background-image: url("../src/components/projectsPage/projectImages/javascript/2d.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#weather{
+  background-image: url("../src/components/projectsPage/projectImages/javascript/weatherBoard.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 .collapsible-card {
   border-radius: 30px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
