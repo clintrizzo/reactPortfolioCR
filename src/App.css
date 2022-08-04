@@ -435,12 +435,12 @@
   background-size: cover;
 }
 #brickBreaker{
-  background-image: url("../src/components/projectsPage/projectImages/javascript/2d.jpg");
+  background-image: url("../src/components/projectsPage/projectImages/javascript/calendar.jpg");
   background-position: center;
   background-size: cover;
 }
 #weather{
-  background-image: url("../src/components/projectsPage/projectImages/javascript/weatherBoard.jpg");
+  background-image: url("../src/components/projectsPage/projectImages/javascript/calendar.jpg");
   background-position: center;
   background-size: cover;
 }
