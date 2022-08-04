@@ -26,7 +26,7 @@ export default function App() {
         <div
           class="content"
           style={{
-            height: toggle ? "10%" : "0px",
+            height: toggle ? "100%" : "0px",
           }}
         >
         <Card.Text>
@@ -37,10 +37,10 @@ export default function App() {
         <Card.Footer style={{paddingBottom: '25px'}}>
           <center>
           <Button variant="primary" size="lg" active className="links">
-          <a href="https://kjwallac.github.io/BusyParentScheduler/calendar.html" rel="noopener noreferrer" target="_blank" style={{color: 'white'}}>Deployment</a>
+          <a href="https://kjwallac.github.io/BusyParentScheduler/calendar.html" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'>Deployment</a>
           </Button>{' '}
           <Button variant="secondary" size="lg" active className="links">
-          <a href="https://github.com/clintrizzo/BusyParentScheduler" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} >GITHUB</a>                
+          <a href="https://github.com/clintrizzo/BusyParentScheduler" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'>GITHUB</a>                
           </Button>    
           </center>    
         </Card.Footer>        
