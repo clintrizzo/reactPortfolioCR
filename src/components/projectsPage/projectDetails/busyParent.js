@@ -36,10 +36,10 @@ export default function App() {
           <hr style={{width:'100%', backgroundColor:'red'}}></hr>
         <Card.Footer style={{paddingBottom: '25px'}}>
           <center>
-          <Button variant="primary" size="lg" active className="links">
+          <Button variant="primary" size="md" active className="links">
           <a href="https://kjwallac.github.io/BusyParentScheduler/calendar.html" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'>Deployment</a>
           </Button>{' '}
-          <Button variant="secondary" size="lg" active className="links">
+          <Button variant="secondary" size="md" active className="links">
           <a href="https://github.com/clintrizzo/BusyParentScheduler" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'>GITHUB</a>                
           </Button>    
           </center>    

@@ -45,7 +45,7 @@ export default function App() {
           <Button variant="primary" size="lg" active className="links">
           <a href="https://clintrizzo.github.io/Weatherboard/" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'>Deployment</a>
           </Button>{' '}
-          <Button variant="secondary" size="lg" active className="links">
+          <Button variant="secondary" size="md" active className="links">
           <a href="https://github.com/clintrizzo/Weatherboard" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'>GITHUB</a>                
           </Button>    
           </center>    
