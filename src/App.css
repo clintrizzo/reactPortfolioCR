@@ -482,19 +482,6 @@
   overflow: hidden;
 }
 
-.links{
-  height: 45px;
-  width: 145px;
-  margin-top:5px;
-  justify-content: center;
-  border-radius: 5px;
-}
-
-#linkText{
-  font-size: 16px;
-  text-align: center;
-}
-
 /*! keep don't delete incase bringing back in contact page
 /*dont change section responsive for desktop to phone*/
 

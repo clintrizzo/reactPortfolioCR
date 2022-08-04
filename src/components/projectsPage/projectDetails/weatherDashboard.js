@@ -42,7 +42,7 @@ export default function App() {
           <hr style={{width:'100%', backgroundColor:'red'}}></hr>
         <Card.Footer style={{paddingBottom: '25px'}}>
           <center>
-          <Button variant="primary" size="lg" active className="links">
+          <Button variant="primary" size="md" active className="links">
           <a href="https://clintrizzo.github.io/Weatherboard/" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'>Deployment</a>
           </Button>{' '}
           <Button variant="secondary" size="md" active className="links">
