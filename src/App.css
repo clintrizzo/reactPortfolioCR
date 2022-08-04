@@ -394,7 +394,11 @@
       overflow: hidden;    }
 
     .links{
-      height: 40px;
+      height: 37px;
+      width: 165px;
+      margin:5px;
+      justify-content: center;
+      border-radius: 5px;
     }
 
     #linkText{
