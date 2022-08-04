@@ -23,7 +23,7 @@ class Projects extends Component {
             {/* {Project: 1} */}
             <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
                 <center>
-              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title'>Calendar Planner</h3></Card.Title>
+              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>Calendar Planner</h3></Card.Title>
                 </center>
               <hr style={{width:'100%', backgroundColor:'red'}}></hr>
               <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"15px", marginLeft: '15px'}} id='photoCalendar' className="card-text"></Card.Title>
@@ -34,7 +34,7 @@ class Projects extends Component {
             {/* {Project: 2} */}
             <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
                 <center>
-              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title'>Brick Breaker</h3></Card.Title>
+              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>Brick Breaker</h3></Card.Title>
                 </center>
               <hr style={{width:'100%', backgroundColor:'red'}}></hr>
               <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"35px", marginLeft: '35px'}} id='brickBreaker' className="card-text"></Card.Title>
@@ -45,7 +45,7 @@ class Projects extends Component {
             {/* {Project: 3} */}
             <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
                 <center>
-              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title'>Weather Board</h3></Card.Title>
+              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>Weather Board</h3></Card.Title>
                 </center>
               <hr style={{width:'100%', backgroundColor:'red'}}></hr>
               <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"35px", marginLeft: '35px'}} id='weather' className="card-text"></Card.Title>

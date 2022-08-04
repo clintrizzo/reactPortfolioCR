@@ -11,7 +11,7 @@ export default function App() {
     <div className="App">
       <div class="collapsible-card">
         <div
-          id="header"
+          id="dropdownText"
           class="header"
           onClick={() => {
             setToggle(prev => {
