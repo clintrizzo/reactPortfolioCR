@@ -3,6 +3,8 @@ import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+
+// imports for project details
 import BusyParent from './projectDetails/busyParent';
 import BrickBreaker from './projectDetails/brickBreacker';
 import WeatherDashboard from './projectDetails/weatherDashboard';
@@ -21,10 +23,10 @@ class Projects extends Component {
             {/* {Project: 1} */}
             <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
                 <center>
-              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title'>Calendar Planner</h3></Card.Title>
+              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>Calendar Planner</h3></Card.Title>
                 </center>
               <hr style={{width:'100%', backgroundColor:'red'}}></hr>
-              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"15px", marginLeft: '15px', background: 'url(./images/javascript/calendar.jpg) center / cover'}} className="card-text"></Card.Title>
+              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"15px", marginLeft: '15px'}} id='photoCalendar' className="card-text"></Card.Title>
               <hr style={{width:'100%', backgroundColor:'red', marginTop: '15px'}}></hr>
               <BusyParent></BusyParent>
             </Card>
@@ -32,10 +34,10 @@ class Projects extends Component {
             {/* {Project: 2} */}
             <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
                 <center>
-              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title'>Brick Breaker</h3></Card.Title>
+              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>Brick Breaker</h3></Card.Title>
                 </center>
               <hr style={{width:'100%', backgroundColor:'red'}}></hr>
-              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"35px", marginLeft: '35px', background: 'url(./images/javascript/2d.jpg) center / cover'}} className="card-text"></Card.Title>
+              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"35px", marginLeft: '35px'}} id='brickBreaker' className="card-text"></Card.Title>
               <hr style={{width:'100%', backgroundColor:'red', marginTop: '15px'}}></hr>
               <BrickBreaker></BrickBreaker>
             </Card>
@@ -43,10 +45,10 @@ class Projects extends Component {
             {/* {Project: 3} */}
             <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
                 <center>
-              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title'>Weather Dashboard</h3></Card.Title>
+              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>Weather Board</h3></Card.Title>
                 </center>
               <hr style={{width:'100%', backgroundColor:'red'}}></hr>
-              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"35px", marginLeft: '35px', background: 'url(./images/javascript/weatherBoard.jpg) center / cover'}} className="card-text"></Card.Title>
+              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"35px", marginLeft: '35px'}} id='weather' className="card-text"></Card.Title>
               <hr style={{width:'100%', backgroundColor:'red', marginTop: '15px'}}></hr>
               <WeatherDashboard></WeatherDashboard>
             </Card>

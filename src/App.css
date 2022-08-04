@@ -355,34 +355,51 @@
 
 /*dont change section responsive for desktop to phone*/
 /*PROJECTS for desktop design*/
-@media screen and (min-width: 812px){
-  .projects-grid{
-    height: 100%;
-    flex: 10;
-    flex-direction:row;
-    justify-content: center;
-    display: flex;
-    margin-top: 20px;
-  }
+@media screen and (max-width: 812px){
+  #projectName {
+    text-align: center;
+    font-size:20px; font-weight:250; color:white; letter-spacing:1px;
+    text-transform: uppercase;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+
+    }
+    
+    #projectName:after,#projectName:before {
+        content: " ";
+        display: block;
+    }
+
+    #dropdownClick{
+      font-size: 18px;
+      margin-top: 5px;
+
+    }
+
+    #projectText{
+      margin-left:5px;
+      margin-right: 5px;
+      padding-right: 5px;
+      padding-left: 5px;
+      margin-top: -2px;
+      margin-bottom: 35px;
+      height: 175px;
+      color: white;
+      font-size: 12.5px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      overflow: hidden;    }
 }
 
-/*laptop*/
-@media screen and (min-width: 1800px){
-  .projects-grid{
-    width:100%;
-    height: 100%;
-    flex-direction:row;
-    justify-content: center; 
-    display: flex;
-    margin-top: 20px;
-  }
-}
 
 /* Project cards */
 
 .title {
   text-align: center;
-      font-size:25px; font-weight:250; color:white; letter-spacing:1px;
+      font-size:30px; font-weight:250; color:white; letter-spacing:1px;
       text-transform: uppercase;
   
       display: grid;
@@ -416,9 +433,10 @@
   padding-right: 5px;
   padding-left: 5px;
   padding-top: 5px;
+  margin-top: 25px;
   height: 250px;
   color: white;
-  font-size: 12.5px;
+  font-size: 17px;
   font-family:'Courier New', Courier, monospace;
   overflow: hidden;
 }
@@ -426,6 +444,23 @@
 .codingProjects{
   margin-bottom: 80px;
   margin-top: 10px;
+}
+
+/* Title background photos */
+#photoCalendar{
+  background-image: url("../src/components/projectsPage/projectImages/javascript/calendar.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#brickBreaker{
+  background-image: url("../src/components/projectsPage/projectImages/javascript/2d.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#weather{
+  background-image: url("../src/components/projectsPage/projectImages/javascript/weatherBoard.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .collapsible-card {
@@ -446,7 +481,6 @@
   font-family:'Courier New', Courier, monospace;
   overflow: hidden;
 }
-
 
 /*! keep don't delete incase bringing back in contact page
 /*dont change section responsive for desktop to phone*/

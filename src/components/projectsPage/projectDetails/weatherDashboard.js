@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import CardOption from '../button'
+import CardOption from '../projectDetails'
 export default function App() {
   const [toggle, setToggle] = useState(false);
   // const initialText = 'Click';
@@ -15,7 +15,7 @@ export default function App() {
     <div className="App">
       <div class="collapsible-card">
         <div
-          id="header"
+          id="dropdownText"
           class="header"
           onClick={() => {
             // handleClick(() => {
@@ -26,27 +26,27 @@ export default function App() {
           }}
         >
           <center>
-            <h3 style={{cursor:'pointer'}} className='busyParentScheduler' ><CardOption></CardOption></h3>
+            <h3 style={{cursor:'pointer'}} className='dropdownInfo' ><CardOption></CardOption></h3>
           </center>
         </div>
         <div
           class="content"
           style={{
-            height: toggle ? "10%" : "0px",
+            height: toggle ? "100%" : "0px",
           }}
         >
         <Card.Text>
           <br></br>
-          <p className='description'>I built this project to display the weather for a city. Setting the current forecast to a card from boot strap and adding the five day projected weather on another card. In the current weather display it shows the current weather conditions, temp, humidity, and wind speed. In the search bar it will display the previous cities that you have searched.</p>   
+          <p className='description' id="projectText">I built this project to display the weather for a city. Setting the current forecast to a card from boot strap and adding the five day projected weather on another card. In the current weather display it shows the current weather conditions, temp, humidity, and wind speed.</p>   
         </Card.Text>
           <hr style={{width:'100%', backgroundColor:'red'}}></hr>
         <Card.Footer style={{paddingBottom: '25px'}}>
           <center>
-          <Button variant="primary" size="lg" active>
-          <a href="https://clintrizzo.github.io/Weatherboard/" rel="noopener noreferrer" target="_blank" style={{color: 'white'}}>Deployment</a>
+          <Button variant="primary" size="md" active className="links">
+          <a href="https://clintrizzo.github.io/Weatherboard/" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'>Deployment</a>
           </Button>{' '}
-          <Button variant="secondary" size="lg" active>
-          <a href="https://github.com/clintrizzo/Weatherboard" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} >GITHUB</a>                
+          <Button variant="secondary" size="md" active className="links">
+          <a href="https://github.com/clintrizzo/Weatherboard" rel="noopener noreferrer" target="_blank" style={{color: 'white'}} id='linkText'>GITHUB</a>                
           </Button>    
           </center>    
         </Card.Footer>        
