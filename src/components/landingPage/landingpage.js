@@ -7,7 +7,7 @@ class Landing extends Component {
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid" style={{paddingTop: '150px'}}>
             <div className="banner-text">
-              <h1>Clinton Rizzo</h1>
+              <h1 className='landingNameTitle'>Clinton Rizzo</h1>
               <hr style={{width:'75%', color:'red'}}></hr>
               <center>
               <h3 className='fullStack'>Full Stack Web Developer</h3>

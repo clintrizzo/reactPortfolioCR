@@ -146,6 +146,39 @@
   font-size: 15px;
 }
 
+@media screen and (max-width: 812px){
+  .banner-text{
+    width: 365px;
+    padding: 15px;
+  }
+
+  .landingNameTitle{
+    padding-bottom: 15px;
+  }
+
+  .fullStack{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .landingStory{
+    font-size: 12px;
+  }
+
+  .codingLanguages{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .social-links{
+    justify-content: center;
+    padding-left: 35px;
+  }
+
+}
+
+
 /*LANDING PAGE for desktop design*/
 @media screen and (min-width: 812px){
   .banner-text{
@@ -204,6 +237,10 @@
     border-top: 3px solid red;
     width: 70%;
     margin: auto;
+  }
+
+  .codingLanguages{
+    padding-top: 15px;
   }
 }
 
@@ -506,6 +543,21 @@
 }
 #teamProfile{
   background-image: url("../src/components/projectsPage/projectImages/mySQL/teamProfile.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#chatBox{
+  background-image: url("../src/components/projectsPage/projectImages/react/login.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#googleSearch{
+  background-image: url("../src/components/projectsPage/projectImages/react/googleSearch.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#userDirectory{
+  background-image: url("../src/components/projectsPage/projectImages/react/userDirectory.jpg");
   background-position: center;
   background-size: cover;
 }

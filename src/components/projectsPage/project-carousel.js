@@ -11,7 +11,9 @@ import WeatherDashboard from './projectDetails/weatherDashboard';
 import EmployeeTracker from './projectDetails/employeeTracker';
 import ReadmeGenerator from './projectDetails/readMeGenerator';
 import TeamProfile from './projectDetails/teamProfile';
-
+import ChatBox from './projectDetails/chatBox';
+import GoogleSearch from './projectDetails/googleSearch';
+import UserDirectory from './projectDetails/userDirectory';
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -105,36 +107,43 @@ class Projects extends Component {
     } else if(this.state.activeTab === 2) {
       return (
         <div className='codingProjects'>
-          <Card>
-            <Card.Header>Featured</Card.Header>
-            <Card.Body>
-              <Card.Title>Special title treatment</Card.Title>
-              <Card.Text>
-                With supporting text below as a natural lead-in to additional content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Header>Featured</Card.Header>
-            <Card.Body>
-              <Card.Title>Special title treatment</Card.Title>
-              <Card.Text>
-                With supporting text below as a natural lead-in to additional content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Header>Featured</Card.Header>
-            <Card.Body>
-              <Card.Title>Special title treatment</Card.Title>
-              <Card.Text>
-                With supporting text below as a natural lead-in to additional content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
+          <CardGroup id='fullCard'>
+            {/* {Project: 1} */}
+            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+                <center>
+              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>React Chat Box</h3></Card.Title>
+                </center>
+              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"35px", marginLeft: '35px'}} id='chatBox' className="card-text"></Card.Title>
+              <center>
+              <hr style={{width:'93%', backgroundColor:'red', marginTop: '15px'}}></hr>
+              </center>              
+              <ChatBox></ChatBox>
+            </Card>
+
+            {/* {Project: 2} */}
+            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+                <center>
+              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>React Book Search</h3></Card.Title>
+                </center>
+              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"35px", marginLeft: '35px'}} id='googleSearch' className="card-text"></Card.Title>
+              <center>
+              <hr style={{width:'93%', backgroundColor:'red', marginTop: '15px'}}></hr>
+              </center>
+              <GoogleSearch></GoogleSearch>
+            </Card>
+
+            {/* {Project: 3} */}
+            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+                <center>
+              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>React User Directory</h3></Card.Title>
+                </center>
+              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"35px", marginLeft: '35px'}} id='userDirectory' className="card-text"></Card.Title>
+              <center>
+              <hr style={{width:'93%', backgroundColor:'red', marginTop: '15px'}}></hr>
+              </center>              
+              <UserDirectory></UserDirectory>
+            </Card>
+          </CardGroup>
         </div>
       )
     } 
