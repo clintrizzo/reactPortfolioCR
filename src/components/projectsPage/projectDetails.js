@@ -10,7 +10,7 @@ class Button extends React.Component{
   render(){
      return <div className='dropdown' id='dropdownClick' onClick= {() => this.setState({clicked: !this.state.clicked})}>
      {
-        this.state.clicked? 'Click For More Details' : 'Click To Collapse'
+        this.state.clicked? '⬇️ Click For More Details' : '⬆️ Click To Collapse'
      }
      </div>
   } 

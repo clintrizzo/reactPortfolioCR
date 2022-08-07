@@ -7,7 +7,7 @@ class Resume extends Component {
   render() {
     return(
       <div id="resumeBack">     
-      <Grid style={{paddingTop: '50px'}}>
+      <Grid style={{paddingTop: '30px'}}>
         <Cell className='resume-left-col' col={4} style={{borderRadius:"60px"}}>
           <center>
           <img src="./images/me.jpg" alt="clintRizzo" className='me' id='frontImage'></img>

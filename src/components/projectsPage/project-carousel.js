@@ -25,7 +25,7 @@ class Projects extends Component {
         <div className='codingProjects'>
           <CardGroup id='fullCard'>
             {/* {Project: 1} */}
-            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+            <Card style={{marginRight: '5px', marginLeft: '5px', marginBottom:'10px', backgroundColor: 'black', borderRadius: '25px', opacity: '.9', height: '600px'}}>
                 <center>
               <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>Calendar Planner</h3></Card.Title>
                 </center>
@@ -37,7 +37,7 @@ class Projects extends Component {
             </Card>
 
             {/* {Project: 2} */}
-            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+            <Card style={{marginRight: '5px', marginLeft: '5px', marginBottom:'10px', backgroundColor: 'black', borderRadius: '25px', opacity: '.9', height: '600px'}}>
                 <center>
               <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>Brick Breaker</h3></Card.Title>
                 </center>
@@ -49,7 +49,7 @@ class Projects extends Component {
             </Card>
 
             {/* {Project: 3} */}
-            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+            <Card style={{marginRight: '5px', marginLeft: '5px', marginBottom:'10px', backgroundColor: 'black', borderRadius: '25px', opacity: '.9', height: '600px'}}>
                 <center>
               <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>Weather Board</h3></Card.Title>
                 </center>
@@ -66,7 +66,7 @@ class Projects extends Component {
         <div className='codingProjects'>
           <CardGroup id='fullCard'>
             {/* {Project: 1} */}
-            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+            <Card style={{marginRight: '5px', marginLeft: '5px', marginBottom:'10px', backgroundColor: 'black', borderRadius: '25px', opacity: '.9', height: '600px'}}>
                 <center>
               <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>Employee Tracker</h3></Card.Title>
                 </center>
@@ -78,7 +78,7 @@ class Projects extends Component {
             </Card>
 
             {/* {Project: 2} */}
-            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+            <Card style={{marginRight: '5px', marginLeft: '5px', marginBottom:'10px', backgroundColor: 'black', borderRadius: '25px', opacity: '.9', height: '600px'}}>
                 <center>
               <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>Readme Generator</h3></Card.Title>
                 </center>
@@ -90,7 +90,7 @@ class Projects extends Component {
             </Card>
 
             {/* {Project: 3} */}
-            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+            <Card style={{marginRight: '5px', marginLeft: '5px', marginBottom:'10px', backgroundColor: 'black', borderRadius: '25px', opacity: '.9', height: '600px'}}>
                 <center>
               <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>Team Profile</h3></Card.Title>
                 </center>
@@ -108,7 +108,7 @@ class Projects extends Component {
         <div className='codingProjects'>
           <CardGroup id='fullCard'>
             {/* {Project: 1} */}
-            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+            <Card style={{marginRight: '5px', marginLeft: '5px', marginBottom:'10px', backgroundColor: 'black', borderRadius: '25px', opacity: '.9', height: '600px'}}>
                 <center>
               <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>React Chat Box</h3></Card.Title>
                 </center>
@@ -120,7 +120,7 @@ class Projects extends Component {
             </Card>
 
             {/* {Project: 2} */}
-            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+            <Card style={{marginRight: '5px', marginLeft: '5px', marginBottom:'10px', backgroundColor: 'black', borderRadius: '25px', opacity: '.9', height: '600px'}}>
                 <center>
               <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>React Book Search</h3></Card.Title>
                 </center>
@@ -132,7 +132,7 @@ class Projects extends Component {
             </Card>
 
             {/* {Project: 3} */}
-            <Card style={{marginRight: '5px', marginLeft: '5px', backgroundColor: 'black', borderRadius: '35px', opacity: '.9', height: '700px'}}>
+            <Card style={{marginRight: '5px', marginLeft: '5px', marginBottom:'10px', backgroundColor: 'black', borderRadius: '25px', opacity: '.9', height: '600px'}}>
                 <center>
               <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>React User Directory</h3></Card.Title>
                 </center>
@@ -151,11 +151,11 @@ class Projects extends Component {
 
   render() {
     return(
-      <div className = 'menuItems' style={{ paddingTop: '60px' }}>
+      <div className = 'menuItems' style={{ paddingTop: '65px' }}>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple style={{ backgroundColor: '#333', height: '75px' }}>
-          <Tab style={{ color: 'white', display: 'block' }}>Javascript</Tab>
-          <Tab style={{ color: 'white', display: 'block' }}>NodeJS</Tab>
-          <Tab style={{ color: 'white', display: 'block' }}>React</Tab>
+          <Tab id='projectTab' style={{ color: 'white', display: 'block' }}>Javascript</Tab>
+          <Tab id='projectTab' style={{ color: 'white', display: 'block' }}>NodeJS</Tab>
+          <Tab id='projectTab' style={{ color: 'white', display: 'block' }}>React</Tab>
         </Tabs>
 
           <Grid>
