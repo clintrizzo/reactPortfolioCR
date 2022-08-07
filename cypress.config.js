@@ -8,8 +8,8 @@ module.exports = defineConfig({
   defaultCommandTimeout: 20000,
   requestTimeout: 20000,
   responseTimeout: 20000,
-  viewportWidth: 1280,
-  viewportHeight: 800,
+  viewportWidth: 1600,
+  viewportHeight: 1000,
   video: false,
 
   e2e: {
