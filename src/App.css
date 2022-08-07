@@ -69,7 +69,7 @@
 
 .schoolDate{
   font-size: 20px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .schoolName{
@@ -85,7 +85,7 @@
 
 .startTime{
   font-size: 20px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   float: left;
 }
 
@@ -131,11 +131,15 @@
   background-color: black;
 }
 
+#projectTab{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
 #text{
   padding: 15px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 12.5px;
-
 }
 
 .description{
@@ -172,6 +176,11 @@
     text-align: center;
   }
 
+  #projectTab{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16.5px;
+  }
+
   #fullCard{
     margin-right: -23px;
     margin-left: -23px;
@@ -201,7 +210,7 @@
 
     #dropdownClick{
       font-size: 16.5px;
-      margin-top: 5px;
+      margin-bottom: 2.5px;
       font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
