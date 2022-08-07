@@ -27,10 +27,17 @@ npx create-react-app "my-app"
 4. react-router-dom (npm install --save react-router-dom)
 5. emailjs-com (npm install emailjs-com --save)
 6. react-scroll (npm install react-scroll)
+7. bootstrap (npm install react-bootstrap bootstrap)
+8. react-collapse (npm install --save react-collapse)
+
 
 ## Testing:
+npm install cypress --save-dev
+- npm run cy
+
 Used cypress for my e2e testing. Mostly added this for practice but also to add more checks to the pull requests. I added three different test specs. Landing page, projects, and projects functionality. 
 # deployed Site:
+Deployed using vercel
 [Portfolio](https://react-portfolio-448d6afjt-clintrizzo.vercel.app/)
     
 ## Images
