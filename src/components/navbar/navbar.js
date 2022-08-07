@@ -14,11 +14,11 @@ function BasicExample() {
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top'>
       <Container>
-        <Navbar.Brand href="#resume"style={{marginRight: '100px'}}><h3>Clinton Rizzo</h3></Navbar.Brand>
+        <Navbar.Brand href="#resume"style={{marginRight: '125px'}}><h3>Clinton Rizzo</h3></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#projects" style={{color: 'white', fontSize: '18px'}}>Projects</Nav.Link>
+            <Nav.Link href="#projects" style={{color: 'white', fontSize: '18px', marginRight: '125px'}}>Projects</Nav.Link>
             <NavDropdown title="Social Links" id="basic-nav-dropdown" style={{color: 'white', fontSize: '18px'}}>
               <NavDropdown.Item href="https://docs.google.com/document/d/1qoSVfiUBKsaPGNi_9KM9QEsKNl-7HqC2UACmeYMM2XQ/edit?usp=sharings" rel="noopener noreferrer" target="_blank"><i className="fa fa-folder-open" aria-hidden="true" /> Resume</NavDropdown.Item>
 

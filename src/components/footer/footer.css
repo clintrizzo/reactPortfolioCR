@@ -10,6 +10,10 @@
     opacity: .8;
   }
 
+.footer a:hover{
+  color:white
+}  
+
 .letters{
     font-size: 20px;
     padding-top: 10px;
