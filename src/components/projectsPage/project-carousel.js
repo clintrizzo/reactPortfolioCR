@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 
@@ -152,7 +151,7 @@ class Projects extends Component {
 
   render() {
     return(
-      <div className = 'menuItems' style={{ paddingTop: '85px' }}>
+      <div className = 'menuItems' style={{ paddingTop: '60px' }}>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple style={{ backgroundColor: '#333', height: '75px' }}>
           <Tab style={{ color: 'white', display: 'block' }}>Javascript</Tab>
           <Tab style={{ color: 'white', display: 'block' }}>NodeJS</Tab>

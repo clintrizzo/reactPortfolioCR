@@ -7,17 +7,24 @@ class Resume extends Component {
   render() {
     return(
       <div id="resumeBack">     
-      <Grid style={{paddingTop: '100px', paddingBottom: '50px'}}>
-        <Cell className='resume-left-col' col={4} style={{borderRadius:"85px"}}>
+      <Grid style={{paddingTop: '50px'}}>
+        <Cell className='resume-left-col' col={4} style={{borderRadius:"60px"}}>
           <center>
-          <img src="./images/me.jpg" alt="clintRizzo" className='me'></img>
+          <img src="./images/me.jpg" alt="clintRizzo" className='me' id='frontImage'></img>
           </center>
-          <h3 className='position' style={{color: 'black', fontSize: '30px'}}>Full Stack Web Developer</h3>
+          <h3 className='position'>Full Stack Web Developer</h3>
           <center>
           <hr style={{borderTop: '3px solid #e22947',  width: '85%'}}/>
           </center>
           <p className='developerStory'>Web Developer with a background in Customer Service. Recognized as proactive, resourceful, and persistent problem-solver. Excellent communicator with effective client relationship building skills. Earned a Certificate in Full-Stack Web Development from the University of CA-Irvine with the goal of becoming a skilled Web Developer. Languages learned were HTML/CSS, Javascript, Node, Express, and React. Main goal in becoming a successful Web Developer is to continue learning as much as possible to become an essential asset to any team. Because of the skills learned through the bootcamp and personal background any task given will be completed. 	
           </p>
+          <center>
+          <hr style={{borderTop: '3px solid #e22947', width: '95%'}}/>
+          </center>
+          <br></br>
+          <h3 className='info'>Coding Languages:</h3>
+          <br></br>
+          <h5 className='languageInfo'>HTML/CSS | Bootstrap | JavaScript | MySQL | NodeJS | Express | MongoDB | React</h5>
           <br></br>
           <center>
           <hr style={{borderTop: '3px solid #e22947', width: '95%'}}/>
@@ -28,8 +35,11 @@ class Resume extends Component {
           <p className='answer'>(951) 288-2247</p>
           <h5 className='info'>Email:</h5>
           <p className='answer'>clint.rizzo92@gmail.com</p>
+          <center>
+          <hr style={{borderTop: '3px solid #e22947', width: '95%'}}/>
+          </center>
         </Cell>
-        <Cell className="resume-right-col" col={8} style={{borderRadius:"85px"}}>
+        <Cell className="resume-right-col" col={8} style={{borderRadius:"50px"}}>
           <h2 className='resumeInfo'>Education:</h2>
           <Education
             startYear={2007}

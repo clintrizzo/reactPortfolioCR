@@ -1,250 +1,3 @@
-/*color for the navbar*/
-.header-color {
-  background: #073ff7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-/*homepage design*/
-.landing-grid {
-  background: #073ff7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: cover;
-  text-align: center;
-/* leave this commented out for future use for now. Testing design */
-  /* position:absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; */
-}
-
-
-.banner-text {
-  background-color: black;
-  opacity: .8;
-  width: 75%;
-  margin: auto;
-  border-radius: 20px;
-  border-top: 200px;
-  padding-bottom: 25px;
-  margin-bottom: 100px;
-}
-
-.banner-text h1{
-  font-size: 30px;
-  margin-bottom: 0;
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.fullStack{
-  font-size: 19px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-top: 5px;
-  color:white;
-  font-family:'Courier New', Courier, monospace;
-}
-
-.banner-text h5{
-  padding-left: 3px;
-  padding-right: 3px;
-  font-size: 15px;
-  color:white;
-  font-family:'Courier New', Courier, monospace;
-}
-
-.landingStory {
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  font-size: 10;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-.banner-text hr {
-  border-top: 2px solid red;
-  width: 80%;
-  margin: auto;
-}
-
-.social-links {
-  display: flex;
-  width: 90%;
-  margin: auto;
-}
-
-.social-links i {
-  color: white;
-  font-size: 30px;
-  padding-right:32px;
-}
-
-.social-links i:hover{
-  color: #2b77be;
-  font-size: 35px;
-}
-
-/*Social links hover affects for desktop only*/
-/*github*/
-.hiddenText0{
-  display: none;
-}
-
-.fa-github-square:hover + .hiddenText0 {
-  display: block;
-  color: white;
-  text-decoration: none;
-  font-size: 15px;
-}
-/*youtube*/
-.hiddenText1{
-  display: none;
-}
-
-.fa-youtube-square:hover + .hiddenText1 {
-  display: block;
-  color: white;
-  text-decoration: none;
-  font-size: 15px;
-}
-/*linkedin*/
-.hiddenText2{
-  display: none;
-}
-
-.fa-linkedin-square:hover + .hiddenText2 {
-  display: block;
-  color: white;
-  text-decoration: none;
-  font-size: 15px;
-}
-/*instagram*/
-.hiddenText3{
-  display: none;
-}
-
-.fa-instagram:hover + .hiddenText3 {
-  display: block;
-  color: white;
-  text-decoration: none;
-  font-size: 15px;
-}
-/*resume*/
-.hiddenText4{
-  display: none;
-}
-
-.fa-folder-open:hover + .hiddenText4 {
-  display: block;
-  color: white;
-  text-decoration:none;
-  font-size: 15px;
-}
-
-@media screen and (max-width: 812px){
-  .banner-text{
-    width: 360px;
-    padding: 15px;
-  }
-
-  .landingNameTitle{
-    padding-bottom: 15px;
-  }
-
-  .fullStack{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 20px;
-  }
-
-  .landingStory{
-    font-size: 12px;
-  }
-
-  .codingLanguages{
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
-  .social-links{
-    justify-content: center;
-    padding-left: 35px;
-    padding-bottom: 10px;
-  }
-
-}
-
-
-/*LANDING PAGE for desktop design*/
-@media screen and (min-width: 812px){
-  .banner-text{
-    background-color: black;
-    opacity: .8;
-    width: 60%;
-    border-radius: 55px;
-    margin-top: 1px;
-  }
-
-  .banner-text h1{
-    font-size: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
-  .fullStack{
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 30px;
-    font-family:'Courier New', Courier, monospace;
-  }
-
-  .landingStory{
-    padding-top: 1px;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
-  .banner-text h5{
-    padding-bottom: 25px;
-    font-size: 18px;
-    font-family:'Courier New', Courier, monospace;
-  }
-
-  .social-links{
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    margin: auto;
-  }
-
-  .social-links i {
-    color: white;
-    font-size: 50px;
-    padding: 5px;
-  }
-
-  .social-links i:hover{
-    color: #2b77be;
-    font-size: 55px;
-  }
-
-  .banner-text hr {
-    border-top: 3px solid red;
-    width: 70%;
-    margin: auto;
-  }
-
-  .codingLanguages{
-    padding-top: 15px;
-  }
-}
-
 /* Resume Page css */
 #resumeBack{
   background: #073ff7;  /* fallback for old browsers */
@@ -257,21 +10,21 @@
 
 .resumeInfo{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 45px;
+  font-size: 30px;
 }
 
 .position{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 30px;
+  font-size: 23.5px;
   text-align: center;
 }
 
-.resumeName{
+/* .resumeName{
   text-align: center;
   margin-top: -25px;
   font-size: 37px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-}
+} */
 
 .resume-left-col{
   background-color: black;
@@ -288,17 +41,22 @@
 }
 
 .developerStory{
-  font-size: 18px;
+  font-size: 16px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.languageInfo{
+  font-size: 16.5px;
   font-family:'Courier New', Courier, monospace;
 }
 
 .info{
-  font-size: 25px;
+  font-size: 23.5px;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .answer{
-  font-size: 20px;
+  font-size: 16.5px;
   font-family:'Courier New', Courier, monospace;
 }
 
@@ -308,13 +66,13 @@
 }
 
 .schoolName{
-  font-size: 23px;
+  font-size: 23.5px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
 .schoolInfo{
-  font-size: 18px;
+  font-size: 16.5px;
   font-family:'Courier New', Courier, monospace;
 }
 
@@ -325,29 +83,22 @@
 }
 
 .jobName{
-  font-size: 25px;
+  font-size: 23.5px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .jobDescription{
-  font-size: 18px;
+  font-size: 16.5px;
   font-family:'Courier New', Courier, monospace;
-}
-
-
-.me{
-  width: 290px;
-  height: 340px;
-  border-radius: 60px;
-  border-right: 55px;
 }
 
 /*for laptop design*/
 @media screen and (min-width: 1000px){
   .me{
-    width: 340px;
+    width: 410px;
     height: 550px;
     border-radius: 50px;
+    margin-bottom: 15px;
     }
 }
 
@@ -375,6 +126,7 @@
   padding: 15px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 12.5px;
+
 }
 
 .description{
@@ -394,6 +146,15 @@
 /*dont change section responsive for desktop to phone*/
 /*PROJECTS for desktop design*/
 @media screen and (max-width: 812px){
+  #frontImage{
+    width: 303px;
+    height: 450px;
+    border-radius: 50px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    margin-left:-8px
+  }
+
   #fullCard{
     margin-right: -23px;
     margin-left: -23px;
@@ -401,7 +162,8 @@
 
   #projectName {
     text-align: center;
-    font-size:23px; font-weight:250; color:white; letter-spacing:1px;
+    font-size:20px; font-weight:250; color:white; letter-spacing:1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
     padding-top: 18px;
     border-top: 2px solid red;
@@ -421,9 +183,9 @@
     }
 
     #dropdownClick{
-      font-size: 20px;
+      font-size: 16.5px;
       margin-top: 5px;
-
+      font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
     #projectText{
@@ -435,8 +197,8 @@
       margin-bottom: 35px;
       height: 175px;
       color: white;
-      font-size: 13.5px;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 11.5px;
+      font-family:'Courier New', Courier, monospace;
       overflow: hidden;    
     }
 
@@ -460,13 +222,15 @@
     font-size: 20px;
     margin-top: -1px;
     margin-bottom: -5px;
+    font-family:'Courier New', Courier, monospace;
   }
 }
 /* Project cards */
 
 .title {
   text-align: center;
-      font-size:30px; font-weight:250; color:white; letter-spacing:1px;
+      font-size:25px; font-weight:250; color:white; letter-spacing:1px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
       text-transform: uppercase;
       padding-top: 18px;
       border-top: 3px solid red;
@@ -485,11 +249,17 @@
   }
 
 .card-text:hover{
-  transform: scale(1.1);
+  transform: scale(.9);
   animation: hideMe 5s forwards;
 }
 
+#dropdownClick{
+  font-size: 21.5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .busyParentScheduler{
+  font-size: 15px;
   font-family:'Courier New', Courier, monospace;
 }
 
@@ -506,7 +276,7 @@
   margin-top: 25px;
   height: 250px;
   color: white;
-  font-size: 17px;
+  font-size: 15.5px;
   font-family:'Courier New', Courier, monospace;
   overflow: hidden;
 }
@@ -514,6 +284,7 @@
 .codingProjects{
   margin-bottom: 80px;
   margin-top: 10px;
+  opacity: .9;
 }
 
 /* Title background photos */
@@ -572,82 +343,12 @@
   height: 40px;
   width: 100%;
   color: white;
-  padding-top: 15px
+  padding-top: 15px;
 }
 .content {
   transition: height 0.5s ease;
   padding: 0px 20px;
-  font-size: 25px;
+  font-size: 16.5px;
   font-family:'Courier New', Courier, monospace;
   overflow: hidden;
 }
-
-/*! keep don't delete incase bringing back in contact page
-/*dont change section responsive for desktop to phone*/
-
-
-/* contact page css */
-/* 
-.container{
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  height:100%;
-}
-
-.contact-title{
-  font-size: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-label{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 15px;
-  margin: 7px;
-  margin-left: 20px;
-}
-
-input, textarea{
-  width: 90%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin-left: 15px
-}
-
-.button{
-  width:30%;
-  background: #073ff7; 
-  background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); 
-  background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); 
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 20px;
-  margin-left: 20px
-}
-
-.button:hover{
-  opacity: .8;
-}
-
-.button:hover{
-  background-color: #4da4ddd0;
-}
-
-CONTACT PAGE for desktop design
-@media screen and (min-width: 768px){
-  .contact-list{
-    height: 100%;
-  }
-
-  input, textarea{
-    width:98%
-  }
-} */

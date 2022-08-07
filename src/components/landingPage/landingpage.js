@@ -5,7 +5,7 @@ class Landing extends Component {
   render() {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
-        <Grid className="landing-grid" style={{paddingTop: '150px'}}>
+        <Grid className="landing-grid" style={{paddingTop: '-150px'}}>
             <div className="banner-text">
               <h1 className='landingNameTitle'>Clinton Rizzo</h1>
               <hr style={{width:'75%', color:'red'}}></hr>
