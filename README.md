@@ -9,7 +9,6 @@
   - [Testing:](#testing)
   - [Deployed Site:](#deployed-site)
   - [Images](#videos)
-  - [Contributers:](#contributers)
 
     
 ## Description:
@@ -38,8 +37,7 @@ npm install cypress --save-dev
 Used cypress for my e2e testing. Mostly added this for practice but also to add more checks to the pull requests. I added three different test specs. Landing page, projects, and projects functionality. 
 # Deployed Site:
 Deployed using vercel:
-<br></br>
-[Clint Rizzo](https://react-portfolio-cr.vercel.app/)
+- [Clint Rizzo](https://react-portfolio-cr.vercel.app/)
     
 ## Images
 - images from mobile device
@@ -51,6 +49,5 @@ Deployed using vercel:
 <div>
 </center>
 
-## Contributers:
-Clinton Rizzo
+
 For additional information or questions please reach out to my email: clint.rizzo92@gmail.com
