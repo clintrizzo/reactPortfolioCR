@@ -7,7 +7,7 @@
   - [Installation:](#installation)
   - [Packages:](#packages)
   - [Testing:](#testing)
-  - [Deployed site:](#deployed-site)
+  - [Deployed Site:](#deployed-site)
   - [Images](#videos)
   - [Contributers:](#contributers)
 
@@ -36,10 +36,10 @@ npm install cypress --save-dev
 - npm run cy
 
 Used cypress for my e2e testing. Mostly added this for practice but also to add more checks to the pull requests. I added three different test specs. Landing page, projects, and projects functionality. 
-# deployed Site:
-Deployed using vercel
+# Deployed Site:
+Deployed using vercel:
 <br></br>
-[Portfolio](https://react-portfolio-cr.vercel.app/)
+[Clint Rizzo](https://react-portfolio-cr.vercel.app/)
     
 ## Images
 - images from mobile device
