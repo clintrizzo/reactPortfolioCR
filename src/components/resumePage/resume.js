@@ -12,7 +12,7 @@ class Resume extends Component {
           <center>
           <img src="./images/me.jpg" alt="clintRizzo" className='me' id='frontImage'></img>
           </center>
-          <h3 className='position' style={{color: 'black', fontSize: '30px'}}>Full Stack Web Developer</h3>
+          <h3 className='position'>Full Stack Web Developer</h3>
           <center>
           <hr style={{borderTop: '3px solid #e22947',  width: '85%'}}/>
           </center>
