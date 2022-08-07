@@ -8,7 +8,7 @@
   - [Packages:](#packages)
   - [Testing:](#testing)
   - [Deployed Site:](#deployed-site)
-  - [Images](#videos)
+  - [Images](#images)
 
     
 ## Description:
