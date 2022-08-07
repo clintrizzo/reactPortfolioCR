@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Landing from '../landingPage/landingpage';
+// import Landing from '../landingPage/landingpage';
 import Resume from '../resumePage/resume';
 import Projects from '../projectsPage/project-carousel';
 // import Contact from './components/contact';
@@ -12,11 +12,11 @@ import Projects from '../projectsPage/project-carousel';
 function BasicExample() {
   return (
     <div>
-      <Navbar bg="dark" variant="dark" sticky='top'>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top'>
       <Container>
         <Navbar.Brand href="#resume">Clinton Rizzo</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#projects">Projects</Nav.Link>
             <NavDropdown title="Social Links" id="basic-nav-dropdown">

@@ -10,7 +10,7 @@ class Resume extends Component {
       <Grid style={{paddingTop: '50px'}}>
         <Cell className='resume-left-col' col={4} style={{borderRadius:"60px"}}>
           <center>
-          <img src="./images/me.jpg" alt="clintRizzo" className='me'></img>
+          <img src="./images/me.jpg" alt="clintRizzo" className='me' id='frontImage'></img>
           </center>
           <h3 className='position' style={{color: 'black', fontSize: '30px'}}>Full Stack Web Developer</h3>
           <center>
