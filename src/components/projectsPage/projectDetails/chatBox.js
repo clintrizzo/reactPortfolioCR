@@ -28,11 +28,12 @@ export default function App() {
           class="content"
           style={{
             height: toggle ? "100%" : "0px",
+            backgroundColor: 'black'
           }}
         >
         <Card.Text>
           <br></br>
-          <p className='description' id="projectText">A complete frontend project where the user can create a chat area with his or her friends. I used this project to practice bringing in React hooks and using reasting API's. Inside the chat the admininstrator for that particular conversation can create the conversations and organize the users to whichever chat area they would like.</p>   
+          <p className='description' id="projectText">A complete frontend project where the user can create a chat area with their friends. I used this project to practice bringing in React hooks and using reasting API's. Inside the chat the admininstrator for that conversation can organize the users to whichever chat area they would like.</p>   
         </Card.Text>
           <hr style={{width:'100%', backgroundColor:'red'}}></hr>
         <Card.Footer style={{paddingBottom: '25px'}}>

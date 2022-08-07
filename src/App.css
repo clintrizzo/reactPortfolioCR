@@ -1,8 +1,8 @@
 /* Resume Page css */
 #resumeBack{
-  background: #073ff7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #1e3171;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #275d81, #3175ad, #063968);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #41708f, #225e8f, #13416c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: cover;
   width: 100%;
   height: 100%
@@ -15,7 +15,9 @@
 
 .position{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 23.5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -48,6 +50,11 @@
 .languageInfo{
   font-size: 16.5px;
   font-family:'Courier New', Courier, monospace;
+}
+
+.infoTitle{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
 }
 
 .info{
@@ -98,6 +105,8 @@
     width: 410px;
     height: 550px;
     border-radius: 50px;
+    margin-top: 10px;
+    margin-right: 3px;
     margin-bottom: 15px;
     }
 }
@@ -106,9 +115,9 @@
 
 /*mobile device*/
 .menuItems{
-  background: #073ff7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #88c0e6, #51a4e7, #2b77be);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #88c0e6, #51a4e7, #2b77be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #1e3171;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #275d81, #3175ad, #063968);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #41708f, #225e8f, #13416c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: cover;
 }
 
@@ -137,7 +146,7 @@
   padding-top: 30px;
   height: 250px;
   color: white;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 
@@ -153,6 +162,14 @@
     padding-top: 5px;
     margin-bottom: 15px;
     margin-left:-8px
+  }
+
+  .position{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 27px;
+    text-align: center;
   }
 
   #fullCard{

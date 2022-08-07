@@ -27,11 +27,12 @@ export default function App() {
           class="content"
           style={{
             height: toggle ? "100%" : "0px",
+            backgroundColor: 'black'
           }}
         >
         <Card.Text>
           <br></br>
-          <p className='description' id="projectText">We built this app for the intention of parents who have a busy life style that they could schedule their work week, personal life, and childrens schedule all in one place. For families that like to plan in advance the app allows you to select days weeks away and still be able to put in a "to do" item.</p>   
+          <p className='description' id="projectText">We built this app for the intention of parents who have a busy life style that they could schedule their work week, personal life, and childrens schedule. For families that plan in advance this app allows you to select days weeks away and still be able to put in a "to do" item.</p>   
         </Card.Text>
           <hr style={{width:'100%', backgroundColor:'red'}}></hr>
         <Card.Footer style={{paddingBottom: '25px'}}>

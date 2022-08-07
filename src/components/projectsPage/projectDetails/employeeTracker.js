@@ -28,6 +28,8 @@ export default function App() {
           class="content"
           style={{
             height: toggle ? "100%" : "0px",
+            backgroundColor: 'black'
+
           }}
         >
         <Card.Text>
