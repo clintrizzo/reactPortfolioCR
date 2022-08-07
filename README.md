@@ -8,9 +8,9 @@
   - [Packages:](#packages)
   - [Testing:](#testing)
   - [Deployed site:](#deployed-site)
-  - [Contributers:](#contributers)
   - [Images](#videos)
-  - [My-info:](#my-info)
+  - [Contributers:](#contributers)
+
     
 ## Description:
 
@@ -33,9 +33,6 @@ Used cypress for my e2e testing. Mostly added this for practice but also to add 
 # deployed Site:
 [Portfolio](https://react-portfolio-448d6afjt-clintrizzo.vercel.app/)
     
-## Contributers:
-Clinton Rizzo
-    
 ## Images
 - images from mobile device
 <center>
@@ -45,6 +42,7 @@ Clinton Rizzo
 <img src ="public/images/ReadMe/projectInfo.jpg" alt='landingpage' width='250px' height='450px'>
 <div>
 </center>
-## My-info:
 
+## Contributers:
+Clinton Rizzo
 For additional information or questions please reach out to my email: clint.rizzo92@gmail.com
