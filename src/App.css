@@ -163,9 +163,9 @@
     width: 303px;
     height: 450px;
     border-radius: 50px;
-    padding-top: 5px;
     margin-bottom: 15px;
-    margin-left:-8px
+    margin-left:-8px;
+    margin-top: -8px;
   }
 
   .position{
@@ -209,8 +209,7 @@
     }
 
     #dropdownClick{
-      font-size: 16.5px;
-      margin-bottom: 2.5px;
+      font-size: 14.5px;
       font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
@@ -223,7 +222,7 @@
       margin-bottom: 35px;
       height: 175px;
       color: white;
-      font-size: 11.5px;
+      font-size: 9.5px;
       font-family:'Courier New', Courier, monospace;
       overflow: hidden;    
     }
@@ -279,7 +278,7 @@
   animation: hideMe 5s forwards;
 }
 
-#dropdownClick{
+.dropdown{
   font-size: 21.5px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }

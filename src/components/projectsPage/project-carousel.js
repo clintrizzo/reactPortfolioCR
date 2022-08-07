@@ -151,7 +151,7 @@ class Projects extends Component {
 
   render() {
     return(
-      <div className = 'menuItems' style={{ paddingTop: '60px' }}>
+      <div className = 'menuItems' style={{ paddingTop: '65px' }}>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple style={{ backgroundColor: '#333', height: '75px' }}>
           <Tab id='projectTab' style={{ color: 'white', display: 'block' }}>Javascript</Tab>
           <Tab id='projectTab' style={{ color: 'white', display: 'block' }}>NodeJS</Tab>
