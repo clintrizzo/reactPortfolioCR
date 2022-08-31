@@ -44,7 +44,9 @@ Deployed using vercel:
 <center>
 <div flexbox='column'>
 <img src ="public/images/ReadMe/landingPage.jpg" alt='landingpage' width='250px' height='450px'>
+
 <img src ="public/images/ReadMe/projects.jpg" alt='landingpage' width='250px' height='450px'>
+
 <img src ="public/images/ReadMe/projectInfo.jpg" alt='landingpage' width='250px' height='450px'>
 <div>
 </center>
