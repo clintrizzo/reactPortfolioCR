@@ -10,7 +10,7 @@ import WeatherDashboard from './projectDetails/weatherDashboard';
 import EmployeeTracker from './projectDetails/employeeTracker';
 import ReadmeGenerator from './projectDetails/readMeGenerator';
 import TeamProfile from './projectDetails/teamProfile';
-import ChatBox from './projectDetails/chatBox';
+import Setinc from './projectDetails/setinc';
 import GoogleSearch from './projectDetails/googleSearch';
 import UserDirectory from './projectDetails/userDirectory';
 class Projects extends Component {
@@ -110,13 +110,13 @@ class Projects extends Component {
             {/* {Project: 1} */}
             <Card style={{marginRight: '5px', marginLeft: '5px', marginBottom:'10px', backgroundColor: 'black', borderRadius: '25px', opacity: '.9', height: '600px'}}>
                 <center>
-              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>React Chat Box</h3></Card.Title>
+              <Card.Title style={{color: 'white', marginTop:'30px'}}><h3 className='title' id='projectName'>React Website</h3></Card.Title>
                 </center>
-              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"35px", marginLeft: '35px'}} id='chatBox' className="card-text"></Card.Title>
+              <Card.Title style={{color: '#fff', height: '225px', marginTop:'10px', marginRight:"35px", marginLeft: '35px'}} id='setinc' className="card-text"></Card.Title>
               <center>
               <hr style={{width:'93%', backgroundColor:'red', marginTop: '15px'}}></hr>
               </center>              
-              <ChatBox></ChatBox>
+              <Setinc></Setinc>
             </Card>
 
             {/* {Project: 2} */}
